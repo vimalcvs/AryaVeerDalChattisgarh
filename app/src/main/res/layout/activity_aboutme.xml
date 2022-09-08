@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150.0dip"
+            android:layout_height="150.0dip"
+            android:src="@drawable/aryaveernewlogo"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            card_view:cardUseCompatPadding="true">
+            <TextView android:textSize="25.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="10.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            card_view:cardUseCompatPadding="true">
+            <TextView
+
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:padding="20.0dip"
+                android:textSize="25.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ध्येय वाक्य : अस्माकं वीरा उत्तरे भवन्तु - हमारे वीर विजयी हों|" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            card_view:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="left"
+                android:text="आर्य वीर दल के तीन मुख्य उद्देश्य\n\n
+
+1- संस्कृति रक्षाः- वेद का ज्ञान सृष्टि के आरम्भ में समस्त प्राणियों के कल्याण हेतु ईश्वर ने मनुष्यों को दिया। इसीलिये हमारी संस्कृति वेदों पर आधारित है। यह वैदिक संस्कृति विश्व में सबसे प्राचीन है। इसी संस्कृति का अनुसरण करते हुये विभिन्न ट्टषि-मुनियों, मर्यादापुरुषोत्तम श्रीराम, योगीराज श्रीकृष्ण, ब्रह्मचारी हनुमान, नीतिज्ञ चाणक्य, गुरु गोविन्द सिंह, महाराणा प्रताप, छत्रपति शिवाजी, महर्षि दयानन्द सरस्वती आदि अनेक महापुरुषों ने जीवन की उत्कृष्टता को प्राप्त किया। ऐसी महान् संस्कृति का अनुसरण एवं संवर्द्धन करना इस दल का प्रथम उद्देश्य है।
+\n\n
+2- शक्ति संचयः- शक्ति से अभिप्राय शारीरिक उन्नति करना है। शारीरिक उन्नति के लिये आहार, निद्रा, ब्रह्मचर्य, स्वाध्याय के स्तम्भों को सुदृढ़ बनाये रखना आवश्यक है। शारीरिक, आत्मिक एवं चारित्रिक रूप से बलवान् मनुष्य रत्न के समान चमकता हुआ चहुँ ओर अपनी अलग प्रतिष्ठा, सम्मान व पहचान बनाता है। पुरुषार्थी बनकर अपने शरीर एवं आत्मा को कर्म की भट्टी में जलाकर शारीरिक एवं आत्मिक उन्नति को प्राप्त करना तथा उपलब्ध साधनों द्वारा आत्मरक्षा का प्रशिक्षण प्राप्त कर अपनी व दूसरों की आपत्काल में सुरक्षा करना, इस दल का दूसरा उद्देश्य है।
+\n\n
+3- सेवा कार्यः- सेवा मानव को मानव से जोड़ने वाली महत्वपूर्ण कड़ी है। सेवा करना तप समान है। सेवा करने वाले के हृदय में प्रेम, करुणा, उदारता, परोपकार और सहनशीलता का होना आवश्यक है।
+
+उत्तम संस्कृति का अनुसरण अपने पूर्ण पुरुषार्थ द्वारा शारीरिक एवं चारित्रिक बल को अर्जित कर मानवमात्र की सेवा में लगा देना ही दल का तीसरा उद्देय है।"
+                android:padding="20.0dip"
+                android:textSize="17.0sp" />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+           android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_instagram"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Copyright © 2020" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>

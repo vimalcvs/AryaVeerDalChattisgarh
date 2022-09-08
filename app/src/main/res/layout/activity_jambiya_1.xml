@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sastracharya.Jambiya_1">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="जांबिया" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="शस्त्राचार्य प्रथम वर्ष \n छुरिका संचालन-" />
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="70.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.सलामी एक
+
+पवित्रा होशियार या सादा पवित्रे पर खड़ा होना "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp"
+                android:layout_gravity="start"
+                android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" 1. बांया पैर बढ़ाकर कण्ठ का वार।\n
+2. सादी पलट (पेट के पास छुरिका)\n
+3. घसर पेट-घसर लेकर पेट में प्रहार\n
+4. बांया पैर आगे डाल कर कण्ठ पर प्रहार\n
+5. पुनः सादी पलट\n
+6. घसर पेट\n
+7. कण्ठ पर प्रहार\n
+8. सावधानः "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.सलामी दो-जी "
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView android:textSize="15.0sp"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. कण्ठप्रहार, \n
+2. सादी पलट, \n
+3. उड्डान के साथ पेट काट\n
+4. बांया पैर आगे डालकर कण्ठ पर प्रहार, सावधान"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.कण्ठ पलट बैठक-"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" 1. बांया पैर आगे, कण्ठ प्रहार, \n
+2. शिर के ऊपर से छुरी घुमाकर पलट बैठक बांया घुटना टिका हुआ,\n
+3. घसर पेट- \n
+4. बांया पैर आगे डालकर कर कण्ठ, \n
+5. फिर पलट बैठक, \n
+6. घसर पेट और \n
+7. कण्ठ प्रहार बांये पैर का दाहिनी ओर पावचक्र चारों ओर। ।
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.चौमुखी एक-"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView android:textSize="15.0sp"
+
+android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिना पैर आगे रख कर कण्ठ\n
+2. पवित्रा नम्बर तीन चल कर घसर पेट ।\n
+3. बांया पैर आगे रखकर कंठ दाहिने पैर का पाव चक्र और कण्ठ
+पर प्रहार\n
+इसी भांति चारों दिशाओं में अभ्यास करना-
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card5"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.चौमुखी दो - "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15dp"
+
+
+android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" पूर्ववत् कण्ठ तक तीन प्रहार\n
+1. विपरीत दिशा में पेट का वार मारना।\n
+2. पुनः दाहिना पैर आगे डाल कर कण्ठ\n
+3. घसर पेट\n
+4. बांया पैर आगे डालकर कण्ठ।\n
+5. दाहिने पैर का पाव चक्र और कण्ठ पर प्रहार (चारों दिशाओं में)"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card6"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.चौक न.१ -"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+
+android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिना पैर आगे रख कर कण्ठ\n
+2. पवित्रा चल कर घसर पेट\n
+3. बांया पैर आगे रख कर कण्ठ।\n
+4. सादी पलट\n
+5. पेट पर प्रहार\n
+6. बांया पैर आगे रख कर कण्ठ।\n
+7. फिर दाहिने पैर का पाव चक्र चारों दिशाओं में।
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card7"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7.चौक न.२ - (पूर्ववत् तीन प्रहार मारना)"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+
+
+android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. पलट बैठक\n
+2. घसर पेट\n
+3. बांया पैर डालकर कण्ठ प्रहार\n
+4. दाहिना पैर डालकर कण्ठ प्रहार\n
+5. दाहिना पैर दाहिनी ओर लेकर दिशा बदलना
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card8"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="start"
+                    android:textColor="#060606"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="8.कण्ठ उड्डान- चौक एक के समान तीन हाथ करना"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+
+
+                android:layout_gravity="start"
+
+android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. सादी पलट\n
+2. घसर पेट\n
+3. कण्ठ उड्डान (बांया पैर आगे रखकर)\n
+4. घसर पेट\n
+5. कण्ठ\n
+6.दाहिने पैर का पाव चक्र चारों ओर।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card9"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="9.पेट की डंकी-"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.दाहिना पैर आगे रखकर कण्ठ\n
+2. पवित्रा न.-३ चलकर घसरपेट\n
+3. बांया पैर आगे रखकर कण्ठ\n
+4. बैठक पेट (बांया पैर आगे)\n
+5. डंकी (कार्ट व्हील)\n
+6. फिर से घसरपेट\n
+7. दाहिना पैर आगे रखकर कण्ठ\n
+8. दाहिने पैर का दाहिनी ओर पावचक्र। चारों दिशाओं में
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card10"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="10. पेट की उड्डान -"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+
+android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिना पैर आगे रख कर कण्ठ।\n
+2. पवित्रा नं-३ चल कर घसर पेट।\n
+3. बांया पैर आगे रख कर कण्ठ।\n
+4. दाहिना पैर आगे रख कर कण्ठ।\n
+5. बांया पैर आगे रखकर दाहिनी ओर से पेट की उड्डान।\n
+6. फिर से बांया पैर आगे रख कर कण्ठ।\n
+7. पलट बैठक।\n
+8. घसर पेट\n
+9. बांया पैर आगे रखकर कण्ठ।\n
+10.दाहिने पैर का दाहिनी ओर पाव चक्र चारों ओर।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card11"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="11.कण्ठ उड़ान की डंकी-"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिना पैर आगे रखकर कण्ठ । दाहिनी ओर से घूमते हुये बांया पैर आगे।\n
+2. दाहिना पैर आगे रखकर कण्ठ।\n
+3. दाहिनी ओर से बांया पैर आगे रख कर पेट की उड्डान।\n
+4. बांया पैर आगे रखकर कण्ठ।\n
+5. पलट बैठक\n
+6. घसर पेट।माजातजना\n
+7. बांया पैर आगे रखकर कण्ठ उड्डान।\n
+8. घसर पेट\n
+9. बांया पैर आगे रखकर बैठक पेट।\n
+10.डंकी\n
+11.घसर पेट।\n
+12.बांया पैर आगे रखकर कण्ठ।\n
+13.दाहिने पैर का दाहिनी ओर पाव चक्र चारों ओर।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card12"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="12. गर्दन बरगडी-"
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_width="600dp">
+            <TextView android:textSize="15.0sp"
+                android:textColor="@color/white"
+                android:id="@+id/shesha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. दाहिना पैर आगे रख कर दाहिनी गर्दन।\n
+2. तीसरा पवित्रा चल कर बांया पैर न टिकाते हुए बरगडी (बगल में प्रहार)।\n
+3. बांया पैर आगे रखकर बायी ओर से घूम कर बांयी गर्दन।\n
+4. सादी पलट।\n
+5. घसर पेट।\n
+6. बैठक पेट।\n
+7. डंकी।\n
+8.घसर पेट।\n
+9. बांया पैर बढ़ा कर कण्ठ।\n
+10.दाहिने पैर का दाहिनी ओर पाव चक्र। चारों ओर।" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vyamacharya.Dand_Baithak">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/nationalid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="आर्यवीर श्रेणी " />
+        <TextView android:textSize="17.0sp"
+            android:textColor="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="आदेश:-दण्ड,सज्ज,स्थिति,उपविश,विश्रम:,तिष्ठ,प्रारभस्व,हाथों में छाती जितना अंतर लेकर बैठना l "
+            android:layout_below="@id/nationalid" />
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card1"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.साधारण दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card2"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.पाश्र्वृ दण्ड"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card3"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="3.वृश्चिक दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card4"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="4.हनुमान दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card5"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="5.राम मूर्ति दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card6"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="6.सिंह दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card7"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="7.पलट दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card8"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="8.सर्प दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_width="600dp">
+            <TextView android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" बैठक" />
+            <TextView android:textSize="17.0sp"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="\nआदेश:-नाप लो दोनों पैरों का अंतर 6-8 इंच दोनों पैर\nसमांतर रहेंगे l "
+                 />
+        </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card9"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.साधारण बैठक"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card10"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.सपाट बैठक"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card11"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="3.पहलवानी बैठक"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card12"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="4.राममूर्ति बैठक"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card13"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="5.पवित्रा बैठक"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card14"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="6.लेहरा बैठक"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card15"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="7.हनुमान बैठक 1"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card16"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="8.हनुमान बैठक 2"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+
+            <TextView android:textSize="17.0sp"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="विशेष:- आर्य वीरांगनाओं के लिए दंड बैठक का अभ्यास वर्जित है उन्हें सूर्य नमस्कार और भूमि नमस्कार करना चाहिए l "
+                 />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_width="600dp">
+            <TextView android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/shesha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="शाखा नायक श्रेणी " />
+        </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card17"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.पार्श्व दण्ड द्वितीय अभ्यास"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card18"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.वृश्चिक दण्ड द्वितीय अभ्यास"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card19"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="3.हनुमान दण्ड द्वितीय अभ्यास"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card20"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="4.बक दण्ड"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card21"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.चक्र दण्ड"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.चक्र दण्ड द्वितीय अभ्यास"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7.वानर दण्ड"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="8.मिश्र दण्ड"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_width="600dp">
+            <TextView android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" बैठक" />
+
+            </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.हनुमान बैठक 3"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.हनुमान बैठक 4"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.घुटना मरोड़ बैठक"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.चल बैठक"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_width="600dp">
+            <TextView android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="आचार्य श्रेणी " />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.घुटना मोड़ दण्ड"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.मंडूक दण्ड"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.मंडूक दण्ड 2"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.बक दण्ड 2"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.बक दण्ड 3"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.चक्र दण्ड 3"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7.एक हथ्थी की दण्ड"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="8.ताल दण्ड"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_width="600dp">
+            <TextView android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" बैठक" />
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.पवित्रा बैठक दो"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.पुटकी  बैठक"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.सपाट बैठक"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.हस्त पाद बैठक"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

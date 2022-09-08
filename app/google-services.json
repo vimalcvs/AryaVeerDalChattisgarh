@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "188563805841",
+    "firebase_url": "https://aryaveerdal-453f7.firebaseio.com",
+    "project_id": "aryaveerdal-453f7",
+    "storage_bucket": "aryaveerdal-453f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188563805841:android:c8f4a117dbe0eaf9",
+        "android_client_info": {
+          "package_name": "com.bindesh.aryaveerdalchattisgarh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188563805841-8tbm92ogl67vh9n9l362cnl1asc9akvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bindesh.aryaveerdalchattisgarh",
+            "certificate_hash": "0419cd4599be5b0f4577b80f716a382a0e6cab95"
+          }
+        },
+        {
+          "client_id": "188563805841-0u7utqs06rc2qdm96heohrl7qvql83cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDID3ItKm5UzuSx5rN0AzIBZaGXxYcKyiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188563805841-0u7utqs06rc2qdm96heohrl7qvql83cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

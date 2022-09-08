@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nyudhamacharya.musthi_pratyakaraman.Musthi_pratyakaraman_3">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="शाखा नायक श्रेणी मुष्टि प्रहार सुरक्षा प्रत्याक्रमण :-" />
+
+
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="15.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="आक्रामक दाहिने पैर को पीछे करके खड़ा है और उसे
+आगे रखते हुये दाहिने हाथ से प्रहार कर रहा है। रक्षक
+दोनों पैरों में अन्तर रखकर घुटने बाहर की ओर रखकर
+खड़ा है।" />
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.आक्रामक - दाहिना मुष्टि प्रहार पेट में मारे। रक्षक -बांया पैर पीछे करके दाहिने हाथ की कलाई के पीछे वाले भाग से प्रहार की सुरक्षा करे और फिर कुछ नीचे झुककर दाहिनी हथेली का प्रहार आमाशय पर करे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.आक्रामक दाहिना मुष्टि प्रहार पेट पर करे ।
+ रक्षक बांया पैर कुछ आगे बढ़ाकर बांयी चाप नीचे से ऊपर बांयी ओर लाते हुये प्रहार की सुरक्षा करे तथा उसके हाथ को ऊपर उठा कर ऊपर ही रोक रखे । रक्षक दाहिने हाथ की चाप आक्रामक के पेट पर मारे ।"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.आक्रामक - दाहिना पैर बढ़ाकर दाहिना मुष्टि प्रहार पेट
+पर करता है।
+ रक्षक दाहिने पैर को दाहिनी ओर कोने से रखकर
+दाहिने हाथ की हथेली से प्रहार को बांयी ओर धकेल दे। रक्षक अपने दाहिने हाथ को ऊपर उठाये तथा उसकी चाप आक्रमण की दाहिनी कनपटी ग्रीवा या जबड़े पर मारे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.आक्रामक – दाहिनी मुष्टि का प्रहार मुख पर कर रहा है |
+ रक्षक - बांये पैर को आगे बढ़ाकर बांयी चाप नीचे से
+ऊपर लाते हुए प्रहार की सुरक्षा करे। रक्षक अपने दाहिने हाथ की अंगुलियों का प्रहार आक्रामक की आंखों पर करे अथवा दाहिनी हथेली का प्रहार आमाशय पर मारे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card5"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.आक्रामक दाहिना मुष्टि प्रहार मुख पर करे।
+ रक्षक – दाहिना पैर आगे बढ़ा कर दाहिने हाथ की चाप
+से उसको रोके तथा हाथ को ऊपर ही रखे।
+ रक्षक - दाहिना पैर आगे सरकाकर आक्रामक के पैरों के
+मध्य रखे और दाहिनी चाप उसकी दाहिनी पसलियों पर मारे। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card6"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.आक्रामक दाहिना पैर बढ़ाकर मुख पर दाहिनी मुष्टि से
+प्रहार करता है। रक्षक उसे अपना दाहिना हाथ ऊपर करते
+हुये चाप पर रोक लें।\n
+ रक्षक - दाहिने हाथ से उसकी कलाई को पकड़ ले तथा
+अपने बांये हाथ की हथेली आक्रामक की कुहनी के नीचे
+लगाये। इसी समय अपना बांया पैर आक्रामक के दाहिने
+पैर के आगे रखे\n
+ रक्षक - अपना दाहिना पैर उसके बांये पैर के आगे रखते
+ही दाहिने हाथ से आक्रामक का दाहिना हाथ खीचें और
+बांये हाथ से उसकी कोहनी पर दबाव डाले। रक्षक अपना
+बांया पैर उसके दाहिने पैर से अड़ाकर रखे तथा बांया
+| घुटना मोड़कर आक्रामक की दाहिनी भुजा पर रखकर उसे तोड़ दे या बांध कर रखे। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card7"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7.आक्रामक का प्रारम्भ पहले जैसा ही है । आक्रामक दाहिना
+पैर आगे बढ़ाकर दाहिने हाथ से मुख पर मुष्टि प्रहार करता
+है।
+ रक्षक अपने बांये हाथ को ऊपर करके चाप से वार को रोके । वार को रोककर रक्षक उसकी कलाई को अन्दर से पकड़ ले और दाहिनी चाप उसकी बांयी कनपटी पर मारे। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card8"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="8.आक्रामक दाहिना पैर आगे बढ़ाकर पेट में मुष्टि प्रहार करता
+है।
+ रक्षक दाहिने हाथ की चाप अंगूठे की ओर से लाकर
+वार को रोके।
+ रक्षक अपना दाहिना पैर आक्रामक के दाहिने पैर से पीछे शीघ्रता से लाकर अपने दाहिने हाथ को उसकी भुजा के नीचे डालकर लपेटते हुए मोटी मांसपेशी पकड़ ले। तथा अ की कलाई बांये हाथ से पकड़ी जायेगी। रक्षक दाहिने पैर की टांग मारे और दाहिने हाथ से पीछे धकेलते आक्रामक को पीछे गिरा दे। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card9"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="9. आक्रामक सामने छाती में प्रहार करता है। रक्षक अपने दोनों हाथों को मिलाकर सामने वार हथेली पर रोके और उसकी मुष्टि पकड़ कर उसे मरोड़े। ऊपर नीचे मुष्टि को मरोड़कर आक्रामक को भूमि पर घुटने टिकाने को बाधित करे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card10"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="10.आक्रामक - दाहिना मुष्टि प्रहार पेट पर करे।
+रक्षक – दाहिना पैर आगे बढ़ाकर बांयी ओर घूमता हुआ
+दाहिने हाथ से उसके प्रहार को बांयी ओर धकेल दे और तुरन्त बांये हाथ से उसकी कलाई पकड़ कर दाहिनी कोहनी का प्रहार दाहिनी पसलियों पर मारे तथा कोहनी तोड़ दांव लगाये। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

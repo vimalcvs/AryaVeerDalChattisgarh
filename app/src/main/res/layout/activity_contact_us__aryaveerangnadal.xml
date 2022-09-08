@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us.Contact_us_Aryaveerangnadal">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="fill_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100.0dip"
+
+            android:layout_height="100.0dip"
+            android:src="@drawable/newwlogo"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            app:cardUseCompatPadding="true">
+            <TextView android:textSize="25.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="10.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aaryaveerangnadal" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            app:cardUseCompatPadding="true">
+            <TextView
+
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:padding="10.0dip"
+                android:textSize="22.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सार्वदेशिक आर्य वीरांगना दल सोशल लिंक्स " />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            app:cardUseCompatPadding="true"            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="10.0dip"
+                android:text="आर्य वीरांगना दल के सोशल मीडिया से जुड़ने के लिए नीचे दिए गए लिंक को क्लिक करें"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20.0sp" />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text555"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/link"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/link"
+                android:layout_marginTop="5dp"
+                android:text="Connect with us:"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/id_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/facbook"
+                android:layout_marginLeft="21dp"
+                android:layout_marginStart="21dp"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6"
+                android:textColor="#4546a3"
+                android:text="Vist our website" />
+
+            <ImageView
+                android:id="@+id/link"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/text555"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/link" />
+
+
+            <ImageView
+                android:id="@+id/facbook"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/link"
+                android:layout_alignStart="@+id/link"
+                android:layout_below="@+id/link"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/google"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/whatsapp"
+                android:layout_alignStart="@+id/whatsapp"
+                android:layout_below="@+id/whatsapp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/google" />
+
+            <ImageView
+                android:id="@+id/whatsapp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/twitter"
+                android:layout_alignStart="@+id/twitter"
+                android:layout_below="@+id/twitter"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/telegram" />
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/facbook"
+                android:layout_alignStart="@+id/facbook"
+                android:layout_below="@+id/facbook"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/twitter" />
+
+            <TextView
+                android:id="@+id/id_facbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/id_link"
+                android:layout_alignStart="@+id/id_link"
+                android:textColor="#4546a3"
+                android:layout_alignTop="@+id/facbook"
+                android:text="Like us on Facbook" />
+
+            <TextView
+                android:id="@+id/id_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/twitter"
+                android:textColor="#4546a3"
+                android:layout_alignLeft="@+id/id_facbook"
+                android:layout_alignStart="@+id/id_facbook"
+                android:text="Follow us on Twitter" />
+
+            <TextView
+                android:id="@+id/id_whatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/whatsapp"
+                android:layout_alignLeft="@+id/id_twitter"
+                android:layout_alignStart="@+id/id_twitter"
+                android:textColor="#4546a3"
+                android:text="Join Telegram Groups" />
+
+            <TextView
+                android:id="@+id/id_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/id_whatsapp"
+                android:layout_alignStart="@+id/id_whatsapp"
+                android:layout_alignTop="@+id/google"
+                android:textColor="#4546a3"
+                android:text="Connect us on Google+" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_alignLeft="@+id/google"
+                android:layout_alignStart="@+id/google"
+                android:layout_below="@+id/google"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/instagram" />
+
+            <TextView
+                android:id="@+id/id_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/id_whatsapp"
+                android:layout_alignRight="@+id/id_whatsapp"
+                android:textColor="#4546a3"
+                android:layout_alignTop="@+id/imageView6"
+                android:text="Follow us on Instagram" />
+
+
+
+            <ImageView
+                android:id="@+id/gmail"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/imageView6"
+                android:layout_alignStart="@+id/imageView6"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/gmail" />
+            <TextView
+                android:id="@+id/id_gmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/gmail"
+                android:layout_alignLeft="@+id/id_instagram"
+                android:layout_alignStart="@+id/id_instagram"
+                android:textColor="#4546a3"
+                android:text="Email Us:-aryaveeranganadal@gmail.com " />
+
+            <ImageView
+                android:id="@+id/wikipedia"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/gmail"
+                android:layout_alignStart="@+id/gmail"
+                android:layout_below="@+id/gmail"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/wikipedia" />
+            <TextView
+                android:id="@+id/id_wikipedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/wikipedia"
+                android:layout_alignLeft="@+id/id_gmail"
+                android:layout_alignStart="@+id/id_gmail"
+                android:textColor="#4546a3"
+                android:text="Wikipedia" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

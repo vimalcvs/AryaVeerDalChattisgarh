@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sastracharya.daan_patta.Kolhapuri">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/nationalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सावधान- " />
+            <TextView android:textSize="17.0sp"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:text="बायें पवित्रे पर खड़ा होना फरी या ढाल बांये हाथ में।
+दाहिने हाथ में पट्टा। सामने दाहिनी कोहनी मुड़ी हुई।" />
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_marginTop="15.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.पट्टा "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.फरी पीछे बांयी ओर गर्दन पर। सामने खोच मारे।\n\n
+2.पट्टे को बांयी ओर से पीछे घुमाते हुये पीछे गर्दन काट। फरी
+- सामने।\n\n
+3.दाहिना पैर आगे रखते हुये पट्टे को सिर के पीछे से घुमाते हुये सामने गर्दन काट। फरी बांयी ओर गर्दन के साथ। दाहिना हाथ आगे मुड़ा हुआ।\n\n
+4.पट्टा बांयी ओर आगे से पीछे लेकर पीछे खोच। फरी बांयी ओर गर्दन पर।\n\n
+5.नम्बर तीन की भांति पट्टे को सिर के ऊपर से घुमाते हुये
+सामने गर्दन काट फरी दाहिनी ओर बगल में।\n\n
+6.पीछे छलांग लेते हुये पट्टे का गर्दन काट प्रहार।\n\n
+7.बांये पैर का पौनचक्र। गर्दन काट का प्रहार। चारों दिशाओं में।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.इकेहरी फिरकी "
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.आगे खोच। फरी बांयी ओर गर्दन के पीछे। \n\n
+2.दाहिना घुटना मोड़कर पीछे गर्दन काट। फरी सामने।\n\n
+3.दाहिना पैर आगे रखकर सामने गर्दन काट। फरी बांयी ओर।\n\n
+4.बांये पैर को केन्द्र बनाकर दाहिने पैर को घड़ी की विपरीत दिशा
+में घुमाते हुये सामने और फिर सामने पूरा गर्दन काट।\n\n
+5.पीछे खोच और बांये पैर को आगे रखते हुये घड़ी की दिशा में
+पट्टे से सामने गर्दन काटे।\n\n
+6.पीछे छलांग लेकर सावधान की स्थिति।\n\n
+7.बांये पैर को बांयी ओर रखकर पौन चक्र। चारों दिशाओं में।"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.दोहरी फिरकी"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="सावधान की स्थिति-\n\n
+1.आगे खोंच। फरी गर्दन के पीछे।\n\n
+2.पीछे गर्दन काट। फरी आगे।\n\n
+3.पहले के समान बांये पैर को घड़ी की विपरीत दिशा में घुमाते हुये
+पीछे गर्दन काट करके सामने मुख। पट्टा सामने। फरी गर्दन
+पीछे।\n\n
+4.दाहिने पैर को केन्द्र बनाकर बाये मपैर को घड़ी की दिशा
+घुमाकर पीछे गर्दन काट का पूरा चक्र मुख पीछे दाहिना पैर भी पीछे रहेगा। \n\n
+5.दाहिनी ओर से घड़ी की विपरीत दिशा में आगे छलांग और
+सामने गर्दन काट और खोच।\n\n
+6.दाहिनी ओर से पीछे छलांग और पीछे गर्दन काट।\n\n
+7.बांये पैर का बांयी ओर पौनचक्र चारों ओर।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.तीनप्रहार "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="सावधान की स्थिति-\n\n
+1.1-3पहले के समान अभ्यास।\n\n
+2.बांये पैर को केन्द्र बनाकर सामने गर्दन काट पीछे गर्दन काट और बांया पैर आगे रखकर फिर सामने गर्दन काट। बांयी ओर से पीछे खोच।\n\n
+3.बांये पैर को आगे रखकर बांयी ओर से सामने गर्दन काट।\n\n
+4.दाहिनी ओर से पीछे छलांग। \n\n
+5.बांये पैर का बांयी और पौनचक्र। चारों ओर अभ्यास।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card5"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.चीर शिर "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="15.0sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सावधान की स्थिति- \n\n1. 1-3पहले के समान अभ्यास।\n\n4.मुख पीछे। बांये पैर को पीछे रखे। खोच की स्थिति। बांया पैर
+आगे लेकर दाहिनी ओर से पट्टे को नीचे से ऊपर घुमाते हुये आगे चीर और फिर पीछे शिर
+का प्रहार।\n\n5. दाहिना पैर आगे
+रखकर सामने गर्दन काट।\n\n6.बांया पैर आगे रखकर दाहिनी ओर शत्रु पर गर्दन काट का
+प्रहार मारे" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card6"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.पीछे छलांग। पौनचक्र। चारों ओर अभ्यास करें।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="सावधान की स्थिति-\n\n
+1. 1-4पहले के समान अभ्यास मुख पीछे।
+5.बांया पैर पीछे रखकर सामने चीर पीछे बांयी ओर गर्दन काट।
+6.दाहिने हाथ को शिर के ऊपर से घड़ी की दिशा में घुमाकर शत्रु
+की सामने गर्दन काट।
+7.पीछे छलांग और पौनचक्र चारों ओर।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card7"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7.पीछे छलांग और पौनचक्र चारों ओर।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" सावधान की स्थिति-\n\n
+1.आगे खोच। फरी बांयी ओर गर्दन के पीछे।\n\n
+2.पीछे चीर। फरी सामने।\n\n
+3.पीछे बांयी ओर नीचे से ऊपर चीर।\n\n
+4.पट्टे को बांयी ओर से नीचे से ऊपर घुमाकर छाट और फिर काठ का प्रहार।\n\n
+5.बांयी ओर सामने घूमकर खोच।\n\n
+6.बांये पैर को केन्द्र बनाकर घड़ी की विपरीत दिशा में घूमते हुये आगे शिर का प्रहार और दाहिना पैर पीछे रखकर खोच।\n\n
+7.दाहिनी ओर से सामने घूमते हुये आगे खोच।\n\n
+8.बांया पैर दाहिनी ओर रखकर दाहिना पैर उसके पीछे रखे। मुख बांयी दिशा में। पट्टे को चीर की भांति घुमाकर दाहिनी ओर गर्दन के पास रखे।\n\n
+9.दाहिने पैर को बांयी दिशा में आगे रखकर बांयी गर्दन काट।\n\n
+10.बांया पैर उसी दिशा में आगे रखकर दाहिनी गर्दन काट।\n\n
+11.पीछे छलांग लेकर गर्दन काट और पीछे चीर का प्रहार।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card8"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="नोट-"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="यदि यह रचना करते हुये अभ्यास करते हैं तो गर्दन काट के स्थान पर चीर वार मारते हुये पीछे आयेंगे। इसी भांति चारों
+दिशाओं में अभ्यास करें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>

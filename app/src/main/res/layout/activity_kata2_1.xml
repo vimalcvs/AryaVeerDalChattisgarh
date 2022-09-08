@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="15dp"
+    android:layout_height="match_parent"
+    tools:context=".nyudhamacharya.kata.kata2.Kata2_1">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.काता न. १ सुरक्षा प्रहार (अटैक डिफैंस)" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:text="सावधान की मुद्रा (मुट्ठी बन्द पार्श्व भाग में। पैर मिले हुये)"
+                android:textColor="#ffff"
+                android:textSize="15.0sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:text="अभिवादन –
+
+बाये पैर को दाहिने घुटने तक उठा कर ब्लाक गुप्तांगों का । बायां हाथ दाहिने हाथ के नीचे क्रास करते हुये लें। मुट्ठी ऊपर को, अब बांये पैर को बांयी ओर रखकर
+ हाथों की मुट्ठियों को नीचे करके सामने क्रास की स्थिति
+में ब्लाक करें।"
+                android:textColor="#ffff"
+                android:textSize="15.0sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="90.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.अभिवादन की स्थिति में दाहिने पैर को बांये से मिलायें। हाथों को छाती के पास मोड़ें । दाहिना हाथ छाती के पास दाहिने पैर के दाहिनी ओर कोने में रखकर बांये हाथ की हथेली से सामने प्रहार ठोड़ी पर दाहिना हाथ पार्श्व में मुट्ठी बन्ध।
+"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.दाहिना पैर बांये से मिला कर दाहिना हाथ आगे लेकर दोनों हाथों से बाल पकड़कर खीचें। कोहनी पीछे आ जायेगी। हाथ का अपर ब्लाक तथा दाहिने पैर को आगे कोने में रखकर दाहिने हाथ से सामने मुख पर पंच। "
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.वापिस सावधान की स्थिति।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.दाहिने हाथ का अपर ब्लाक बांये पैर को आगे लेकर बांये हाथ का सामने पंच।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card5"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.वापिस सावधान की स्थिति।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card6"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.दाहिने हाथ को सामने से बांयी ओर ग्रीवा पर लेकर दाहिना ओर देखें तथा दाहिने पैर को ऊपर उठाकर दाहिनी ओर रखें और दाहिने हाथ का साइड पंच दाहिनी ओर कनपटी
+पर मारें। बांये हाथ को छाती पर लाकर ब्लाक करें। मुट्ठी
+ऊपर को रहेगी दृष्टि दाहिनी ओर। सावधान की स्थिति। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card7"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7.बायां हाथ मोड़कर दाहिनी ओर ग्रीवा पर रखे। बांया पैर उठायें तथा दृष्टि बायी ओर रहेगी। बांया पैर बांयी ओर पार्श्व भाग में रखकर बांये हाथ का साइड पंच कनपटी पर मारे । दाहिना हाथ छाती के पास।।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="
+नोट – पहले कोहनी का प्रहार करते हुये पश्चात् कनपटी पर मुष्टि प्रहार करें। जिसमें कि हाथ के सीधे होने पर टूटने का भय न रहे।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card8"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_marginTop="15.0dip"
+           android:layout_marginBottom="30dp">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="start"
+                    android:textColor="#060606"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="१० सावधान की स्थिति - दाहिना पैर दाहिनी ओर लेकर बांया
+पैर मिलायें और आगे अभिवादन करें।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+   </LinearLayout>
+
+
+</ScrollView>

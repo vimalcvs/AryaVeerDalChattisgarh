@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="यावारा:-" />
+            <TextView
+                android:textSize="18.0sp"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40.0dip"
+                android:text="यावारा छ: इंच मोटी लकड़ी को कहते हैं जो निकट के संघर्ष में प्रहारार्थ प्रयुक्त की जाती है।" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="पकडने की विधि " />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="प्रथम विधि "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="18.0sp"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:layout_marginLeft="15.0dip"
+                android:text=" यावारा को दाहिने हाथ की मुट्ठी में पकड़े। मठ्ठी भमि की ओर रहेगी। हाथ सामने। बायें हाथ की हथेली यावारा के नीचे अथवा यावारा को भूमि के समानान्तर आगे-पीछे दाहिने हाथ की मुट्ठी में पकड़ कर दाहिना हाथ दाहिने पैर के पास रहेगा। बांया पैर आगे झुका हुआ और दाहिना पैर पीछे सीधा रहेगा।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="दूसरी विधि "
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="यावारा को आड़ा करके पकड़े। अंगूठा अपनी ओर तथा छोटी अंगुली प्रतिपक्षी की ओर रहनी चाहिये।"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="तीसरी विधि"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+                android:textColor="#ffff"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" बांये पवित्रे पर गड़े होकर कन्धे के पास रखें तथा बांया हाथ आगे सुरक्षा के लिए उठाये रखे।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="चतुर्थ विधि"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="18.0sp"
+                android:textColor="#ffff"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" यावारा को दाहिने हाथ में पकड़ कर बांयें हाथ से कलाई को पकड़ लें, दोनों हाथ आगे रखें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="यावारा को दाहिने हाथ में पकड़ कर बांयें हाथ से कलाई को पकड़ लें, दोनों हाथ आगे रखें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card5"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="पचम विधि"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" यावारा को दाहिने हाथ में पकड़कर उसका मुख नीचे की ओर रखें ।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card6"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1. पहला प्रहार प्रतिपक्षी के पेट में मारे। दूसरा प्रहार उसके सीने या बगल में, तीसरा कन्धे के नीचे काख में मारें।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@id/card7"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.प्रतिपक्षी द्वारा पीछे से प्रहार करने पर तुरन्त उसके पीछे घूमें। पहला प्रहार उसके मुख पर और दूसरा पेट में मारें।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card8"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.प्रतिपक्षी दाहिने घूसे का प्रहार करता है। ऐसा करने पर प्रहार से पहले ही यावारा का प्रहार उसकी मुट्ठी पर मारे। इसी प्रकार बांये हाथ का प्रहार करने पर पूर्ववत यावारा मुट्ठी पर मारे। तीसरा प्रहार पेट में करें। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card9"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.बांया पैर आगे रख खड़े होकर यावारा दाहिने पैर के निकट रखे।।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="18.0sp"
+                android:layout_gravity="start"
+                android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिना पैर आगे बढ़ाकर दाहिने हाथ को घुमाते हुये प्रतिपक्षी की दाहिनी कनपटी पर यावारा का प्रहार करें। प्रहार मारने के पश्चात् अपनी पीठ प्रतिपक्षी की ओर हो जायेगी।\n 2. बांया पैर पीछे रख के प्रतिपक्षी की ओर पीठ किये हुये ही यावारा से उसको छाती या पसली पर प्रहार मारें।\n 3 दाहिने हाथ को ऊपर उठा कर मोड़े और माथे पर प्रहार करें।\n 4 दाहिना पैर दाहिनी ओर से बांयी ओर घुमाते हुये सामने आकर बायी कनपटी पर प्रहार मारें।\n नोट- इसी भांति यावारा को बांये हाथ में पकड़कर प्रहार मारने का अभ्यास करना चाहिये।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+
+            android:id="@id/card10"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.बायें पवित्रे पर खड़े हो जाइये। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिने पैर को आगे रखकर यावारा से प्रतिपक्षी की दाहिनी कनपटी पर प्रहार करें।\n 2. आधी दिशा बदल जायेगी। पीठ पतिपक्षी की ओर दाहिने हाथ से यावारा का प्रहार प्रतिपाक्षी के अण्डकोष पर मारे अथवा पेट में प्रहार करे।\n 3. हाथ को निकालते हुये दिशा बदलें और सामने आकर शिर पर प्रहार करें।\n 4. बांये पैर का प्रहार अण्डकोष पर करें।\n 5. दाहिने पैर को आगे रखकर पेट या सीने में प्रहार मारें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+
+            android:id="@id/card11"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.सामने अण्डर कट"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिना पैर आगे बढ़ाकर शिर पर प्रहार करे।\n 2. इसी पवित्रे पर दाहिनी कनपटी पर प्रहार।\n 3. हाथ को बांयी ओर से घुमाकर दाहिनी पसली पर प्रहार मारे।\n 4. इसके साथ ही दाहिनी कनपटी पर प्रहार करे।\n 5. दाहिने हाथ को निकालकर बांयी ओर की हंसली की हड्डी (Color bone) पर मारें और हड्डी पर यावारा रख कर प्रतिपक्षी की नीचे बैठा दे अथवा ग्रीवा का बन्ध लगायें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card12"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7.दाहिनी मुट्ठी में यावारा पकड़कर अपने दोनों हाथ पीछे करके खड़े हो जाये।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="600.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="18.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@id/shesha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. प्रतिपक्षी द्वारा घुटने का प्रहार किये जाने पर दाहिना पैर पीछे लेकर यावारा का प्रहार उसकी जांघ पर करें।\n 2. दाहिना पैर आगे बढ़ाकर पेट में प्रहार मारें।\n 3. तीसरा प्रहार गले में मारे और धोबी पाट या दूसरा दाव लगाकर प्रतिपक्षी को नीचे डाल दें।\n 4. नीचे प्रतिपक्षी के माथे, हृदय या मर्मस्थलों में अन्तिम प्रहार करें।" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+
+            android:id="@id/card13"
+            android:layout_width="fill_parent"
+            android:layout_height="90.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="8.सामने प्रतिद्वन्द्वी खड़ा होने पर-"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.बायां पैर का लीवर लेकर उछलते हुये दाहिना पैर आगे बढ़ाकर पतिपक्षी की छाती में प्रहार मारें।\n 2.बांयी ओर से घूमते हुये बांये पैर की हील किक या टर्निंग बैक किक पेट में मारें।\n 3. उछलते हुये दाहिना पैर आगे रखकर बांयी कनपटी पर यावारा का प्रहार करें। "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card14"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="9.दो प्रतिद्वन्द्वी "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="बांयी प्रतिद्वन्दी\n २. बांयी कनपटी\n ४. दाहिनी कनपटी\n ६. दाहिना पैर बढ़ाकर पेट में प्रहार करना दाहिनी प्रतिद्वन्द्वी कती किया\n १. दाहिनी कनपटी\n ३. अण्डकोश पर प्रहार\n ५. घड़ी की विपरीत दिशा में घूमकर शिर पर प्रहार"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@id/card15"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="10.0dip"
+                    android:text="10.तीन प्रतिद्वन्द्वी"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:text="१ बाया\n ४. दाहिना पैर बढ़ाकर माथे पर प्रहार\n ५. दाहिनी पसली पर प्रहार\n ६. माथे या अण्डकोश पर प्रहार\n  २ मध्य\n १. सामने शिर पर प्रहार\n २. नीचे अण्डरकट\n ३. दाहिनी पसली\n ८. अण्डकोश पर प्रहार \n ३ दाहिना\n ६. दाहिना पैर बढ़ाकर माथे पर प्रहार\n ७. बांये पैर की किक"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

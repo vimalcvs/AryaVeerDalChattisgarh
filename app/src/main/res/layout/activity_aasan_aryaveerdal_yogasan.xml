@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yogacharaya.aasan.Aasan_aryaveerdal_yogasan">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="32.0dip"
+        android:layout_marginRight="20.0dip">
+
+
+            <TextView android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/shesha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="आर्य वीर दल योगासन " />
+
+    </RelativeLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="5dp"
+        android:rowCount="2">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ghoongru_kathi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="@string/aryaveershreni"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mugar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="@string/sakhanayakshreni"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jhandi_drill" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="@string/up_vyayamshikshak_shreni"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jhandi_drill" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="@string/vyayam_shikshak"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </GridLayout>
+    </LinearLayout>
+</ScrollView>

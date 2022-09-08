@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bindesh.aryaveerdalchattisgarh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MainTheme">
+
+        <activity android:name=".pdfview.PDFViewActivity"/>
+        <activity android:name=".pdfview.DastavezPDF" />
+
+        <activity android:name=".Drawer_Karyakarni" />
+
+        <activity android:name=".Developer_profile" android:label="Developer Profile" />
+
+        <activity android:name=".dastavez.Dastavez_demo" />
+        <activity android:name=".pustakalaya.Aarsh_sahitya" />
+        <activity android:name=".pustakalaya.Swami_Devvratji_Ki_Pustakeen" />
+        <activity android:name=".yogacharaya.aasan.aasan_aryaveerdal_yogasan.Yogasan_vyayamshikshak_shreni" />
+        <activity android:name=".yogacharaya.aasan.aasan_aryaveerdal_yogasan.Yogasan_sakhanayak_shreni" />
+        <activity android:name=".yogacharaya.aasan.aasan_aryaveerdal_yogasan.Yogasan_aryaveer_shreni" />
+        <activity android:name=".yogacharaya.aasan.Aasan_anya_yogasan" />
+        <activity android:name=".yogacharaya.aasan.Aasan_aryaveerdal_yogasan" />
+        <activity
+            android:name=".lathi.Lathi_Upvyayam_shikshak_shreni"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".sastracharya.Lathi" />
+        <activity android:name=".Anyagatividhiyan" />
+        <activity
+            android:name=".Arya_Samaj"
+            android:label="@string/arya_samaj"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vyayamsangeet.Anya_vyayam_sangeet"
+            android:label="अन्य व्यायाम संगीत"
+            android:parentActivityName=".vyayamsangeet.Anya_vyayam_sangeet" />
+        <activity
+            android:name=".vyayamsangeet.Aryaveerdal_Vyayam_Sangeet"
+            android:label="@string/aryaveerdalvyayam_sangeet"
+            android:parentActivityName=".Vyayamsangeet" />
+        <activity android:name=".Naya_Sanskaran" />
+        <activity android:name=".Login" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".contact_us.Social_media_comety"
+            android:label="@string/social_media_commetie"
+            android:parentActivityName=".Contact_Us" />
+        <activity
+            android:name=".contact_us.Contact_us_Aryaveerangnadal"
+            android:label="@string/aaryaveerangnadal"
+            android:parentActivityName=".Contact_Us" />
+        <activity
+            android:name=".contact_us.Contact_us_Aryaveerdal"
+            android:label="@string/aryaveerdal"
+            android:parentActivityName=".Contact_Us" />
+        <activity
+            android:name=".contact_us.Rupendra_arya"
+            android:label="@string/rupendra_arya"
+            android:parentActivityName=".Contact_Us" />
+        <activity
+            android:name=".aryaveerangnadal.Arya_veerangnadal_videos"
+            android:label=""
+            android:parentActivityName=".Arya_veerangna_dal" />
+        <activity
+            android:name=".aryaveerangnadal.Arya_veerangnadal_gatividhiyan"
+            android:label="@string/aaryaveerangnadal"
+            android:parentActivityName=".Arya_veerangna_dal" />
+        <activity
+            android:name=".aryaveerangnadal.Arya_veerangnadal_social_page"
+            android:label="@string/aaryaveerangnadal"
+            android:parentActivityName=".Arya_veerangna_dal" />
+        <activity android:name=".aryaveerangnadal.Arya_vayayam_shikshika" />
+        <activity android:name=".aryaveerangnadal.Prantiya_aryaveerangnadal_karyakarni" />
+        <activity android:name=".aryaveerangnadal.Sarvadeshik_aryaveerangnadal_karyakarni" />
+        <activity android:name=".aryaveerdal.Arya_veerdal_videos" />
+        <activity android:name=".aryaveerdal.Arya_veerdal_gatividhiyan" />
+        <activity
+            android:name=".aryaveerdal.Arya_veerdal_social_pages"
+            android:label="@string/aryaveerdal_social_link"
+            android:parentActivityName=".Arya_veer_dal" />
+        <activity android:name=".aryaveerdal.Arya_vyayam_shikshak" />
+        <activity android:name=".aryaveerdal.Prantiya_karyakarni_sabha" />
+        <activity android:name=".aryaveerdal.Sarvadeshik_aryaveerdal_karyakarni" />
+        <activity
+            android:name=".Arya_veerangna_dal"
+            android:label="@string/aaryaveerangnadal"
+            android:parentActivityName=".Arya_veerangna_dal" />
+        <activity
+            android:name=".Arya_veer_dal"
+            android:label="@string/aryaveerdal"
+            android:parentActivityName=".Arya_veer_dal" />
+        <activity
+            android:name=".mantra.Yazo_pavit_mantrah"
+            android:label="yazopavit_mantra"
+            android:parentActivityName=".Mantra" />
+        <activity android:name=".Config" />
+        <activity
+            android:name=".lathi.Lathi_dutiya_varsh"
+            android:label="@string/shakhanayak_shreni"
+            android:parentActivityName=".sastracharya.Lathi" />
+        <activity
+            android:name=".lathi.Lathi_pratham_varsh"
+            android:label="@string/aryaveershreni"
+            android:parentActivityName=".sastracharya.Lathi" />
+        <activity
+            android:name=".mantra.Arya_samaj_ke_niyam"
+            android:label="@string/arya_samaj_ke_niyam"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".mantra.Dhwaj_gaan"
+            android:label="@string/dhwaj_gaan"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".mantra.Rastriya_prarthna"
+            android:label="@string/rastriya_prarthna"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".mantra.Bhojan_mantra2"
+            android:label="@string/bhoojan_ke_baad_mantra"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".mantra.Bhojan_mantra"
+            android:label="@string/bhoojan_mantra"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".mantra.Yagya_mantra"
+            android:label="@string/yag_ke_mantra"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".mantra.Sayan_mantrah"
+            android:label="@string/sayan_mantra"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".mantra.Pratah_kaalin_mantra"
+            android:label="@string/pratah_kaalin_mantra"
+            android:parentActivityName=".Mantra" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_21"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_20"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_19"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_18"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_17"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_16"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_15"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_14"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_13"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_12"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_11"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_10"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_9"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_8"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_7"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_6"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_5"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_4"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_3"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_2"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_1"
+            android:label="@string/aatma_raksha_vigyan"
+            android:parentActivityName=".nyudhamacharya.Aatma_rakshavigyan" />
+        <activity
+            android:name=".nyudhamacharya.musthi_pratyakaraman.Musthi_pratyakaraman_4"
+            android:label="@string/muthi_pratyakraman"
+            android:parentActivityName=".nyudhamacharya.Musthi_Pratyakaraman" />
+        <activity
+            android:name=".nyudhamacharya.musthi_pratyakaraman.Musthi_pratyakaraman_3"
+            android:label="@string/muthi_pratyakraman"
+            android:parentActivityName=".nyudhamacharya.Musthi_Pratyakaraman" />
+        <activity
+            android:name=".nyudhamacharya.musthi_pratyakaraman.Musthi_pratyakaraman_2"
+            android:label="@string/muthi_pratyakraman"
+            android:parentActivityName=".nyudhamacharya.Musthi_Pratyakaraman" />
+        <activity
+            android:name=".nyudhamacharya.musthi_pratyakaraman.Musthi_pratyakaraman_1"
+            android:label="@string/muthi_pratyakraman"
+            android:parentActivityName=".nyudhamacharya.Musthi_Pratyakaraman" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_vyayamshikshak_shreni.Suraksha_vyayamshikshak_4"
+            android:label="@string/suraksha_vyayam_shikshak"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_vyayamshikshak_shreni.Suraksha_vyayamshikshak_3"
+            android:label="@string/suraksha_vyayam_shikshak"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_vyayamshikshak_shreni.Suraksha_vyayamshikshak_2"
+            android:label="@string/suraksha_vyayam_shikshak"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_vyayamshikshak_shreni.Suraksha_vyayamshikshak_1"
+            android:label="@string/suraksha_vyayam_shikshak"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_dutiyavarsh.Suraksha_dutiyavarsh_7"
+            android:label="@string/suraksha_shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_dutiyavarsh.Suraksha_dutiyavarsh_6"
+            android:label="@string/suraksha_shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_dutiyavarsh.Suraksha_dutiyavarsh_5"
+            android:label="@string/suraksha_shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_dutiyavarsh.Suraksha_dutiyavarsh_4"
+            android:label="@string/suraksha_shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_dutiyavarsh.Suraksha_dutiyavarsh_3"
+            android:label="@string/suraksha_shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_dutiyavarsh.Suraksha_dutiyavarsh_2"
+            android:label="@string/suraksha_shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.suraksha_dutiyavarsh.Suraksha_dutiyavarsh_1"
+            android:label="@string/suraksha_shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.Suraksha_vyayamshikshak"
+            android:label="@string/suraksha_vyayam_shikshak"
+            android:parentActivityName=".nyudhamacharya.Nyudhamacharya_Suraksha" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.Suraksha_upvyayamshikshak"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".nyudhamacharya.Nyudhamacharya_Suraksha" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.Suraksha_dutiyavarsh"
+            android:label="@string/shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.Nyudhamacharya_Suraksha" />
+        <activity
+            android:name=".nyudhamacharya.suraksha.Suraksha_prathamvarsh"
+            android:label="@string/aryaveershreni"
+            android:parentActivityName=".nyudhamacharya.Nyudhamacharya_Suraksha" />
+        <activity
+            android:name=".nyudhamacharya.Nyudhamacharya_Suraksha"
+            android:label="@string/suraksha"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity
+            android:name=".nyudhamacharya.padaghat.Padaghat_upvyayam_shikshak"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".nyudhamacharya.Padaghaat" />
+        <activity
+            android:name=".nyudhamacharya.padaghat.Padaghat_dutiya_varsh"
+            android:label="@string/shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.Padaghaat" />
+        <activity
+            android:name=".nyudhamacharya.padaghat.Padaghat_pratham_varsh"
+            android:label="@string/aryaveershreni"
+            android:parentActivityName=".nyudhamacharya.Padaghaat" />
+        <activity
+            android:name=".nyudhamacharya.kick_suraksha.Kick_suraksha_1"
+            android:label="@string/kick_defence"
+            android:parentActivityName=".nyudhamacharya.Kick_suraksha" />
+        <activity
+            android:name=".nyudhamacharya.Padaghaat"
+            android:label="@string/padaghat"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_10"
+            android:label="काता 10 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_9"
+            android:label="काता 9 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_8"
+            android:label="काता 8 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_7"
+            android:label="काता 7 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_6"
+            android:label="काता 6 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_5"
+            android:label="काता 5 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_4"
+            android:label="काता 4 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_3"
+            android:label="काता 3 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_2"
+            android:label="काता 2 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.kata2.Kata2_1"
+            android:label="काता 1 "
+            android:parentActivityName=".nyudhamacharya.kata.Kata_2_vyayamshikshak" />
+        <activity
+            android:name=".nyudhamacharya.kata.Kata_2_vyayamshikshak"
+            android:label="@string/vyayam_shikshak"
+            android:parentActivityName=".nyudhamacharya.Kata" />
+        <activity
+            android:name=".nyudhamacharya.kata.Kata_1_upvyayamshikshak"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".nyudhamacharya.Kata" />
+        <activity
+            android:name=".nyudhamacharya.karate.Vyayam_shikshak"
+            android:label="@string/vyayam_shikshak"
+            android:parentActivityName=".nyudhamacharya.Karate" />
+        <activity
+            android:name=".nyudhamacharya.karate.Upvyayam_shikshak"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".nyudhamacharya.Karate" />
+        <activity
+            android:name=".nyudhamacharya.karate.Sakhanayak_shreni"
+            android:label="@string/shakhanayak_shreni"
+            android:parentActivityName=".nyudhamacharya.Karate" />
+        <activity
+            android:name=".nyudhamacharya.karate.Pratham_shreni"
+            android:label="@string/aryaveershreni"
+            android:parentActivityName=".nyudhamacharya.Karate" />
+        <activity
+            android:name=".nyudhamacharya.Musthi_Pratyakaraman"
+            android:label="@string/muthi_pratyakraman"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity
+            android:name=".nyudhamacharya.Hathiyaron_se_suraksha"
+            android:label="@string/hatiyaron_se_suraksha"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity
+            android:name=".nyudhamacharya.Counter_attack"
+            android:label="@string/counter_attack"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity
+            android:name=".nyudhamacharya.Kick_suraksha"
+            android:label="@string/kick_defence"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity
+            android:name=".nyudhamacharya.Aatma_rakshavigyan"
+            android:label="@string/self_defence"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity android:name=".nyudhamacharya.Chaku_se_bachaw" />
+        <activity
+            android:name=".nyudhamacharya.Kata"
+            android:label="@string/kata"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity
+            android:name=".nyudhamacharya.Kalari"
+            android:label="@string/kalri"
+            android:parentActivityName=".pathyakaram.Nyudham" />
+        <activity android:name=".nyudhamacharya.Karate" />
+        <activity
+            android:name=".sastracharya.daan_patta.Baroda"
+            android:label="@string/barodapaddhati"
+            android:parentActivityName=".sastracharya.Daan_patta" />
+        <activity
+            android:name=".sastracharya.daan_patta.Aamrawati"
+            android:label="@string/aamrawati_paddhati"
+            android:parentActivityName=".sastracharya.Daan_patta" />
+        <activity
+            android:name=".sastracharya.daan_patta.Kolhapuri"
+            android:label="@string/kolkapuri_paddhati"
+            android:parentActivityName=".sastracharya.Daan_patta" />
+        <activity android:name=".sastracharya.Gadaa" />
+        <activity android:name=".sastracharya.Gadka" />
+        <activity android:name=".sastracharya.Bagnakha" />
+        <activity android:name=".sastracharya.Naan_Chaku" />
+        <activity android:name=".sastracharya.Jambiya_1" />
+        <activity
+            android:name=".sastracharya.talvaar.Talvaar_sastracharya_2"
+            android:label="@string/sastracharya_dutiyavarsh"
+            android:parentActivityName=".sastracharya.Taalvaar" />
+        <activity
+            android:name=".sastracharya.talvaar.Talvaar_sastracharya_1"
+            android:label="@string/sastracharya"
+            android:parentActivityName=".sastracharya.Taalvaar" />
+        <activity
+            android:name=".sastracharya.talvaar.Talvaar_vyayam_shikshak"
+            android:label="@string/vyayam_shikshak"
+            android:parentActivityName=".sastracharya.Taalvaar" />
+        <activity
+            android:name=".sastracharya.talvaar.Talvaar_upvyayam_shikshak"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".sastracharya.Taalvaar" />
+        <activity android:name=".sastracharya.Yavara_1" />
+        <activity
+            android:name=".sastracharya.bhala.Bhala_dwand"
+            android:label="@string/dwand"
+            android:parentActivityName=".sastracharya.Bhala" />
+        <activity
+            android:name=".sastracharya.bhala.Bhala_sastracharya_2"
+            android:label="@string/sastracharya_dutiyavarsh"
+            android:parentActivityName=".sastracharya.Bhala" />
+        <activity
+            android:name=".sastracharya.bhala.Bhala_sastracharya_1"
+            android:label="@string/sastracharya"
+            android:parentActivityName=".sastracharya.Bhala" />
+        <activity
+            android:name=".sastracharya.bhala.Bhala_vyayam_shikshak"
+            android:label="@string/vyayam_shikshak"
+            android:parentActivityName=".sastracharya.Bhala" />
+        <activity
+            android:name=".sastracharya.bhala.Bhala_dutiyavarsh"
+            android:label="@string/shakhanayak_shreni"
+            android:parentActivityName=".sastracharya.Bhala" />
+        <activity
+            android:name=".sastracharya.bhala.Bhala_upvyayam_shikshak"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".sastracharya.Bhala" />
+        <activity
+            android:name=".sastracharya.bhala.Bhala_prathamvarsh"
+            android:label="@string/aryaveershreni"
+            android:parentActivityName=".sastracharya.Bhala" />
+        <activity
+            android:name=".lathi.Lathi_vyyayam_shikshak_shreni"
+            android:label="@string/vyayam_shikshak"
+            android:parentActivityName=".sastracharya.Lathi" />
+        <activity
+            android:name=".vyamacharya.khel.Khel_3"
+            android:label="@string/up_vyayamshikshak_shreni"
+            android:parentActivityName=".vyamacharya.Khel" />
+        <activity
+            android:name=".vyamacharya.khel.Khel_2"
+            android:label="@string/shakhanayak_shreni"
+            android:parentActivityName=".vyamacharya.Khel" />
+        <activity
+            android:name=".vyamacharya.khel.Khel_1"
+            android:label="@string/aryaveershreni"
+            android:parentActivityName=".vyamacharya.Khel" />
+        <activity
+            android:name=".vyamacharya.Khel"
+            android:label="@string/khel"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity android:name=".vyamacharya.lezium.Khadi_lezium" />
+        <activity android:name=".vyamacharya.lezium.Ghati_lezium" />
+        <activity
+            android:name=".vyamacharya.lezium.Hindi_lezium"
+            android:label="@string/hindilegium"
+            android:parentActivityName=".vyamacharya.Lezium" />
+        <activity
+            android:name=".Splash_Screen"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Login_RegisterActivity" />
+
+        <activity android:name=".MainActivity" />
+
+
+
+        <activity
+            android:name=".Notification"
+            android:parentActivityName=".MainActivity" />
+
+        <service android:name=".MyFirebaseInstanceIDService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".MyFirebaseMessagingService"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Parichaya"
+            android:label="@string/parichaya"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pathyakaram"
+            android:label="@string/pathyakaram"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Aboutme"
+            android:label="@string/aboutme"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Mantra"
+            android:label="@string/mantra"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Vyayamsangeet"
+            android:label="@string/vyayamsangeet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Sangeet"
+            android:label="@string/sangeet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Dastavez"
+            android:label="@string/dastavez"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Adhikarigan"
+            android:label="@string/aryaveerdal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pathyakaram.Sastra"
+            android:label="@string/sastracharya"
+            android:parentActivityName=".Pathyakaram" />
+        <activity
+            android:name=".pathyakaram.Vyayama"
+            android:label="@string/vyayamacharya"
+            android:parentActivityName=".Pathyakaram" />
+        <activity
+            android:name=".pathyakaram.Astra"
+            android:label="@string/astracharya"
+            android:parentActivityName=".Pathyakaram" />
+        <activity
+            android:name=".pathyakaram.Nyudham"
+            android:label="@string/nyudhammacharya"
+            android:parentActivityName=".Pathyakaram" />
+        <activity
+            android:name=".pathyakaram.Yog"
+            android:label="@string/yogacharya"
+            android:parentActivityName=".Pathyakaram" />
+        <activity
+            android:name=".pathyakaram.Ghosh"
+            android:label="@string/ghos"
+            android:parentActivityName=".Pathyakaram" />
+        <activity
+            android:name=".pathyakaram.Scouting"
+            android:label="@string/scouting"
+            android:parentActivityName=".Pathyakaram" />
+        <activity
+            android:name=".pathyakaram.Pustakalaya"
+            android:label="@string/pustakalaya"
+            android:parentActivityName=".Pathyakaram" />
+        <activity android:name=".Webview" />
+        <activity android:name=".Contactus" />
+        <activity
+            android:name=".vyamacharya.Sarvaang_sundram"
+            android:label="@string/sarvangsundram"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Dumble"
+            android:label="@string/dumble"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Dand_Baithak"
+            android:label="@string/dandbaithak"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".yogacharaya.Aasans"
+            android:label="@string/aasan"
+            android:parentActivityName=".pathyakaram.Yog" />
+        <activity
+            android:name=".yogacharaya.Pranayam"
+            android:label="@string/pranayam"
+            android:parentActivityName=".pathyakaram.Yog" />
+        <activity
+            android:name=".yogacharaya.Bandh"
+            android:label="@string/bandh"
+            android:parentActivityName=".pathyakaram.Yog" />
+        <activity
+            android:name=".yogacharaya.Suddhi_kriya"
+            android:label="@string/sat_karma"
+            android:parentActivityName=".pathyakaram.Yog" />
+        <activity
+            android:name=".sastracharya.Lathi"
+            android:label="@string/lathi"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity
+            android:name=".sastracharya.Bhala"
+            android:label="@string/bhala"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity
+            android:name=".sastracharya.Parshu"
+            android:label="@string/parshu"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity
+            android:name=".sastracharya.Mandu"
+            android:label="@string/maandu"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity
+            android:name=".sastracharya.Sitara"
+            android:label="@string/chakujambiya"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity
+            android:name=".sastracharya.Yavara"
+            android:label="@string/yavara"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity
+            android:name=".vyamacharya.Lezium"
+            android:label="@string/lezium"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".ghosh.Vanshi_Rachna"
+            android:label="@string/vanshi_rachna"
+            android:parentActivityName=".pathyakaram.Ghosh" />
+        <activity
+            android:name=".vyamacharya.Surya_namaskar"
+            android:label="@string/suryanamaskar"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Bhoomi_namaskar"
+            android:label="@string/bhoominamaskar"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Chandra_namaskar"
+            android:label="@string/chandranamaskar"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Indian_club"
+            android:label="@string/choti_mongri"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Ghunghrukathi"
+            android:label="@string/ghumgru_kathi"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Aerobics_vyayam"
+            android:label="@string/aerobic"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Ring"
+            android:label="@string/ring"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Gymnastic"
+            android:label="@string/gimnastic"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Dhabu_kavayad"
+            android:label="@string/dhabukayad"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Vyayayam"
+            android:label="@string/vyayam"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Malkhamb"
+            android:label="@string/malkhamb"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Sainik_shiksha"
+            android:label="@string/sainikshiksha"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Doori_malkhamb"
+            android:label="@string/dorimalkhamb"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Mudgar_mungri"
+            android:label="@string/mudgar_mungri"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Jhandi_pt"
+            android:label="@string/jhandi_pt" />
+        <activity
+            android:name=".vyamacharya.Jhsndi_drill"
+            android:label="@string/jhandi_drill"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".vyamacharya.Torch_drill"
+            android:label="@string/torcg_drill"
+            android:parentActivityName=".pathyakaram.Vyayama" />
+        <activity
+            android:name=".sastracharya.Taalvaar"
+            android:label="@string/talvaar"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity
+            android:name=".Contact_Us"
+            android:label="@string/contact_us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".lathi.Lathi_sastracharya_pratham_varsh"
+            android:label="@string/lathi_sastracharya_1yr"
+            android:parentActivityName=".sastracharya.Lathi" />
+        <activity
+            android:name=".lathi.Lathi_sastracharya_dutiya_varsha"
+            android:label="@string/lathi_sastracharya_2yr"
+            android:parentActivityName=".sastracharya.Lathi" />
+        <activity
+            android:name=".sastracharya.Daan_patta"
+            android:label="@string/daanpatta"
+            android:parentActivityName=".pathyakaram.Sastra" />
+        <activity android:name=".pustakalaya.Aryaveerdal_Ki_Pustakeen" />
+        <activity
+            android:name=".mantra.Sandhya"
+            android:label="@string/sandhya_mantra"
+            android:parentActivityName=".Mantra" />
+        <activity android:name=".anime.AnimeActivity" />
+
+    </application>
+
+</manifest>

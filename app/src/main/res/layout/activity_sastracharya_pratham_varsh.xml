@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lathi.Lathi_sastracharya_pratham_varsh">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#060606"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/nationalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="दण्ड (लाठी)  शस्त्राचार्य प्रथम वर्ष" />
+            <TextView android:textSize="17.0sp"
+                android:textColor="#006400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="लाठी की लम्बाई शिर के समान पैरों का अन्तर एक हाथ दोनों पैर सीधे रखेंगे।
+
+लाठी दाहिने बांये कन्धे के ऊपर से लेते हुये हाथ को सीधा ऊपर से लाकर शिर में प्रहार करें।
+
+ प्रत्येक प्रहार करते ही पीछे देखें जिस से पीछे या
+दाहिने-बायें जाने में सुविधा रहे यदि उछलकर प्रहार करें तो उसकी क्षमता बढ़ जाती है।
+
+
+ पैर सीधे कमर सीधी और पैरों का अन्तर एक हाथ रहेगा।" />
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_marginTop="15.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="प्रहार छः प्रकार से किया जाता है। "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1. दाहिने-बांये, आगे पैर बढ़ाकर या पवित्रा चल कर"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.पीछे लाठी लेकर पुनः आगे बढ़कर मारना।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.लौट (घूमकर) से मारना।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#060606"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" प्रहार मारने विधि" />
+        </RelativeLayout>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card5"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1. प्रहार मारने के पांच भेद"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card6"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="17.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2. मार हाथ के पांच भेद"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.मोहरा (दिशा बदलना) पौनचक्र\n\n\n\n\n\n\n\n "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="बांये पवित्रे पर खड़े हैं मुख उत्तर दिशा में दाहिना पैर वहीं
+पर रहेगा। बांये पैर का दाहिनी और पश्चिम में पौन चक्र लेकर शिर पर प्रहार मारें। ऐसे ही चारों दिशाओं में
+अभ्यास करना।फिर उछल कर दाहिना पैर आगे रखना और बांये पैर को केन्द्र बनाकर दाहिने पैर को दाहिनी ओर से पूर्व दिशा में लेकर चारो ओर मारना। "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.पीछे पैर+पौन चक्र\n\n\n\n\n\n\n\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="बांये पैर को दाहिनी ओर से पीछे रखकर शिर में प्रहार
+मारें। अब पुनः बांये पैर का दाहिनी ओर पौनचक्र लेकर शिर में प्रहार करना। इसी भांति चारों दिशाओं प्रहार मारने के पश्चात पवित्रा
+बदल कर पुनः दाहिने पैर को बांयी ओर से पीछे लेकर पूर्ववत् चारों
+दिशाओं में प्रहार मारें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="3.एक स्थान पर पौनचक्र+आगे पैर बढ़ाकर प्रहार मारना \n\n\n\n\n\n\n\n\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" बांये पवित्रे पर ही कमर को दाहिनी ओर घुमाकर (दाहिने
+पैर को भी घुमावें) पौन चक्र लेकर शिर पर प्रहार मारें और पुनः बांये
+पैर को उसी दिशा में घमाकर मारें। इसी भांति चारों दिशाओं में प्रहार
+मारकर पवित्रा (घर) बदलें और दाहिना पैर आगे रखकर बांयी ओर से कमर को घुमाते हुये पौन चक्र लेकर प्रहार मारें तथा दाहिने पैर
+को आगे लेकर दूसरा प्रहार मारें ऐसे ही चारों दिशाओं में अभ्यास करें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="4.पीछे छलांग लेकर प्रहार मारना \n\n\n\n\n\n\n\n\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="उत्तर दिशा में मुख बांया पैर आगे। पीछे छलांग लेकर
+पश्चिम दिशा में प्रहार मारें। इस स्थिति में बांया पैर पश्चिम और
+दाहिना पीछे पूर्व की ओर हो जायेगा। इसी भांति पीछे छलांग लेकर
+दक्षिण, पूर्व, उत्तर चारों दिशाओं में शिर पर प्रहार मारना चाहिये।
+चक्र पूरा होने पर आगे दाहिना पैर लेकर पूर्ववत् चारों दिशाओं में
+प्रहार मारें। "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="5.पीछे पैर लेकर प्रहार मारना\n\n\n\n "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="\n\nबांये पैर को पीछे लेकर पीछे सिर पर प्रहार मारें। इसी
+भांति दाहिना पैर पीछे लेकर दाहिनी ओर से घूमते हुये पीछे प्रहार
+मारें। ऐसे ही पीछे कदम बढ़ाते हुये जाना और फिर आगे आने का
+अभ्यास करें। इसमें दाहिनी ओर से ही घूमा जाता है।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="सुरक्षा-\n\n\n\n\n\n\n\n "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="\n\nलाठी प्रहार की रोक (1-सीधी बेल, रोक हाथ)-\n\n
+
+लाठी दाहिनी ओर से ऊपर से नीचे लेते हुये दाहिना पैर
+आगे बढ़ाकर रोक करें। हाथ शिर से बांयी ओर। इसी भांति बांया पैर आगे बढ़ाकर बांयी से ओर आये शिर के प्रहार से सुरक्षा करें। हाथ दाहिनी ओर। इसी प्रकार रोक दोनों ओर से करते हुए आगे
+बढ़े और पीछे हटते जायें"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card7"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="17.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3. रोक हाथ के पांच भेद"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1. दाहिना पैर आगे बढ़ाकर सामने शिर पर आये प्रहार की
+रोक। बांये पैर को आगे रखकर सामने रोक। बांया पैर दाहिनी ओर से पीछे लेकर पीछे रोक पुनः बांये पैर से पीछे रोक। बांये पैर को दाहिनी ओर से आगे लेकर रोक। ऐसे ही दाहिनी, बांयी रोक। दोनों दिशाओं में।\n "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.दाहिना पैर आगे बढ़ाकर सामने रोक बांया पैर आगे
+रखकर रोक पुनः दाहिना पैर आगे रखकर रोक दाहिने पैर को बांयी ओर से पीछे लेकर पीछे रोक। बांया पैर पीछे लेकर पीछे रोक। दाहिना पैर पीछे ले पीछे रोक दाहिना पैर बांयी ओर से घुमाकर आगे रोक। ऐसे ही आगे-पीछे दोनों दिशाओं में रोक करें।\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="3.दाहिना पैर आगे बढ़ाकर सामने रोक मुख उत्तर दिशा में।
+बांया पैर बढ़ाकर सामने रोक। बांये पैर को केन्द्र बनाकर दाहिना पैर का पौनचक्र लेकर दाहिना पैर का पौनचक्र लेकर दाहिना पैर पूर्व दिशा में। अब बांया पैर आगे पूर्व दिशा में रखकर रोक, दाहिना पैर आगे लेकर सामने रोक। दाहिने पैर को केन्द्र बनाकर बांया पैर घड़ी
+की विपरीत दिशा में घुमाते हुये उत्तर में रखें। ऐसे ही अभ्यास करते हये उत्तर पूर्व के कोने में आगे बढ़ते जायें।\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="4.भीतर की निकाल बांये पवित्रे पर खड़े हैं दाहिने पैर को
+बांयी ओर आगे तिरछा पश्चिम, उत्तर कोने में रखकर दाहिनी रोक करें। बांया पैर पीछे आ जायेगा। अब बांया पैर घड़ी की विपरीत दिशा में लेते हुये पीछे लेकर उछल कर लाठी का प्रहार शिर पर मारें।\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="5.दाहिना पैर आगे बढ़ाकर रोक, बांया पैर आगे रखकर रोक
+अब बांया पैर बांयी ओर से नागबेल की भांति पीछे रखें और दाहिना
+पैर पीछे बढ़ाकर रोक, फिर बांया पैर पीछे बढ़ाकर रोक, पूर्ववत् बांये
+पैर को बांयी ओर से पीछे रखे और नागबेल की भांति लाठी को पीछे
+लेकर दाहिना पैर आगे बढ़ाकर रोक। ऐसे ही दोनों दिशाओं में
+अभ्यास करें। "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+
+        </RelativeLayout>
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card8"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="17.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4. घर बदलना (पैतरा बदलना ) के पांच भेद\n"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.बांया पैर आगे रखकर सामने प्रहार। अब उछलकर दिशा बदलें और दाहिना पैर आगे रखें। इसी भांति उछलकर पुनः बांये पवित्रे पर आ जायें।\n\n
+2.सीधी बेल (मार हाथ) दाहिना पैर आगे बढ़ाकर सीधी बेल का
+हाथ करें ऐसे ही बांया पैर आगे बढ़ाकर आगे-पीछे जायें।\n\n
+3.सामने प्रहार बांये पैर को आगे रखकर करें। अब उसी पैंतरे पर पीछे सरककर वापसी की लाठी पीछे मारे।\n\n
+4.रंगूनी बेल से पवित्रा बदलें। रंगूनी बेल में लाठी सामने रखकर दाहिने, बांये घूमकर लाठी के नीचे से निकल कर पैर बदलते हैं।\n\n
+5.डेढ का पवित्रा चलकर पैर बदलें। रंगूनी बेल में दाहिने पैर को केन्द्र बनाकर घड़ी की दिशा में घूमकर बांये पैर को पीछे रखें। इससे
+दाहिना पैर आगे आ जायेगा। दूसरी बार बाये पैर को केन्द्र बनाकर दाहिना पैर पीछे लें। इसमें पीछे हटा जाता है।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card9"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="17.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5. पवित्रा के पांच भेद"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.डेढ कदम का पवित्रा\n "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="उत्तर दक्षिण दिशा में बांया पैर आगे और दाहिना पैर पीछे
+दक्षिण दिशा में।\n\n
+1.बांया पैर दाहिनी ओर कोने में रखें और दाहिने पैर को घमाकर आगे ४ अंक पर ले आयें तथा लाठी को बांयी ओर से दाहिनी ओर शिर के ऊपर से लेते हुये सामने प्रहार मारें।
+\n\n
+2.दाहिने पैर को बांयी ओर कोने में २ अंक पर रखकर बांया पैर अंक १ पर रखें और लाठी दाहिनी ओर से बांयी ओर घुमाकर सामने प्रहार करें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.उल्टा डेढ पैर का पवित्रा\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="बांया पैर बांयी ओर पार्श्व में रखे तथा लाठी का मोटा सिरा
+उसी ओर रखकर सुरक्षा करें। दाहिना पैर आगे बांये के स्थान पर रखें और लाठी को बांयी ओर पीठ से
+ घुमाकर शिर पर मारे। इसी भांति दाहिना पैर आगे होने पर उसे दाहिनी ओर पार्श्व में रखे तथा बांया पैर
+  आगे रखकर दाहिनी ओर सुरक्षा तथा सामने शिर पर प्रहार मारे।
+\n\n
+४-३ की स्थिति बांया पैर आगे और दाहिना पैर पीछे। बांया पैर २ पर रखें और लाठी का मोटा सिरा उसी ओर
+ (बांयी ओर) रखते हुए सुरक्षा करें। दाहिना पैर आगे बांये के स्थान पर रखकर सामने शिर के ऊपर प्रहार मारे।\n\n
+
+इसी भांति दाहिना पैर अंक ३ के ऊपर रखकर बांया पैर
+दाहिने के स्थान पर आगे रखकर शिर पर प्रहार करें। "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="3.नागबेल\n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="यह पवित्रा एक ही दिशा में चला जाता है। जब दूसरी ओर
+चलना हो तो मार हाथ करके पहले पैर बदलना चाहिये।
+
+१-२ की स्थिति में बांये पवित्रे पर खडे हैं। ३- बांये पैर को बांयी ओर पार्श्व में रखें और लाठी को नागबेल से घुमाकर दाहिनी ओर सुरक्षा करें। दाहिने पैर को बांयी ओर आगे कोने में रखकर बांया पैर आगे रखे तथा लाठी दाहिनी ओर से शिर के ऊपर से लेते हुए सामने प्रहार मारें।
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="4.ढाई पैर का पवित्रा \n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="इस पवित्रे द्वारा सामने किये प्रतिपक्षी के प्रहार से बचने के
+लिये दाहिने या बांये छलांग लेकर अपनी सुरक्षा और उस पर प्रहार किया जाता है।\n\n
+1-2 मुख उत्तर दिशा में। 1-2 की स्थिति में बांया पैर आगे और दाहिना पैर पीछे करके खड़े हैं।
+3.बांये पैर को दाहिने कोने (उत्तर पूर्व) में आगे रखें जिस से सामने किये प्रहार से सुरक्षा हो जाये।\n\n
+4-5 छलांग लेकर दाहिना पैर आगे रखें। (मुख पश्चिम दिशा में)
+लाठी को घमाते हुये प्रतिपक्षी के शिर पर प्रहार मारें।\n\n
+
+
+ ढाई पैर का पवित्रा\n\n
+
+(इस पवित्रे से पार्श्व भाग में भी छलांग लेकर दाहिने
+जा सकते हैं) बांया पैर पीछे रहेगा।
+जब प्रतिपक्षी के पीछे जाना हो तो बांये पैर को कोने में कुछ
+आगे लम्बा बढ़ाकर कुछ लम्बी छलांग लेकर पीछे जायें।
+इसी प्रकार दाहिने पवित्रे से बांयी ओर जाने का अभ्यास
+करें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="5.लम्बा ढाई पैर का पवित्रा \n"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1-2की स्थिति में उत्तर दिशा में बांया पैर आगे और दाहिना पैर पीछे रखकर खड़े हैं।\n\n
+3.दाहिना पैर दाहिनी ओर पार्श्व भाग या उत्तर पूर्व कोने में आगे रखें लाठी से बांयी ओर सुरक्षा करे।\n\n
+4.बांया पैर कोने में आगे रखें।\n\n
+5-6.दाहिनी ओर आगे छलांग लेते हुये प्रतिपक्षी के शिर पर प्रहार मारें इस स्थिति में मुख पश्चिम दिशा में तथा बांया पैर ६ की स्थिति में पीछे रहेगा।\n\n
+
+इसी भांति बांया पैर बांयी ओर रखकर छलांग लें। दोनों
+ओर से अभ्यास करना चाहिए।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card10"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="17.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.रंगनी बेल, के 5 भेद"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="\n1 .
+बांये पैतरे पर खड़ा होकर लाठी का मोटा सिरा
+
+पिछे रखकर लाठी बॉये कन्धे पर रखे दाहिना
+पैर आगे बढाये लाठी को बाया आर से।
+दाहिनी ओर सिर के ऊपर से लाते हुए दाहिने
+कन्धे पर रखे। इसमे केवल शिर के उपर से
+लठी को बदलते है ।
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="\n2.
+लाठी को सामने रखकर पवित्रे पर खड़ा होना
+बाया पैर दाहिनी ओर से पीछ लेते हुए पीछे रखना और लाठी को शिर के उपर से दाहिनी से बाँयी ओर बदलना. ऐसे ही दाहिने पैर को पीछे लेना।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="\n3 .
+न. 2 का भाँति बाँया पैर पिछे लेना । दाहिना
+पैर को पीछे लेते हुए बाँया पैर को पूरा धुमाकर
+बाये पैतरे पर आ जाता । इस में लाही का
+सिर के ऊपर से पूरा चक्र बॉयी से दाहिनी
+ओर लगेगा । ऐसे  ही दूसरी ओर से अभ्यास
+करे"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="\n4.बाँये पैतरे पर लाठी  इसी स्थिति में लाठी को
+दाहिनी ओर से सिर के उपर लते हए
+दाहिनी कन्धे के ऊपर रखना । लाठी मोटा
+सिरा आगे रखते हुऐ सामने प्रहार ऐसे ही
+लाठी को बांये कन्धे पर रखकर पहार करे"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="\n5.प्रतिपक्षी द्वारा सिर पर प्रहार करने की स्थिति
+में बांया पैर को पिछे लेना और पूरा चक्र
+घुमते हुऐ पहार से बचना । ऐसे 2-3 बार
+इसी प्रकार घूमा जा सकता है।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="\nनोट-"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75.0dip"
+                android:text="\nरंगूनी बेल मुख्यतः पैतरा बदलने के काम आता है"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

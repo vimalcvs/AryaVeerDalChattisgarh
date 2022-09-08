@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sastracharya.Mandu">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.सलामी " />
+
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card1"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="17.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.पवित्रे पर खड़े होकर कंठ पीछे पेट आगे पेट दायां  पैर आगे डालकर कंठ पीछे पेट आगे पेट बाया  पैर डालकर कंठ मौकूफ"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card2"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.पवित्रे पर खड़े होकर कंठ पीछे पेट आगे बरगढ़ी उड़ान कंठ  मौकूफ"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.हाथ"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card3"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.बरगढ़ी उड़ान बाया पैर आगे डालकर कंड पीछे पेट आगे बरगढ़ी उड़ान आधी पीछे पेट आगे बरगढ़ी उड़ान आधी बाया पैर आगे रखकर मस्तिष्क दाया पैर    दाई ओर डाल कर पांव चक्कर चारों ओर"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card4"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.मस्तक उड़ान दाया पैर आगे रखकर कंड पीछे पेठ बाया पैर आगे रखकर बरगडी मस्तक उड़ान पीछे बरगडी बाया पैर आगे डालकर मस्तक पीछे बरगडी सामने पेट दाएं पैर का दाएं और 5 चक्कर चारों  दिशाओं में करना"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card5"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="3.टेढ़ी पलट पवित्र पर खड़े होकर पीछे बरगडी आगे पेट की उड़ान पीछे बरगडी सामने पेट बाया  पैर डाल कर टेढ़ी पलट घर पेट बाया पैर आगे रखकर कंठ चारों ओर"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card6"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="4.पलट बैठक गर्दन  उडडॉन पवित्रे पर खड़े होकर मस्तिष्क पलट बैठक घसर पेट गर्दन उडड़ान पीछे बरगढ़ी के साथ बाएं पैर बाएं ओर पौन चारों ओर"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card7"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="5.शेर डकी दायाँ पैर आगे डाल कर दाई गर्दन बाया पैर आगे डालकर बाई बरगढ़ी पलट बैठक घर पर टर्की शेर बैठक सामने पेठ बाया और आगे डालकर मस्तिष्क दाएं पैर का दाएं और पपौन चक्कर"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

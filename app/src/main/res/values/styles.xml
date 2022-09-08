@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeCornerCut" parent="MainTheme">
+        <item name="cornerSize">5dp</item>
+    </style>
+
+    <style name="SplashTheme" parent="MainTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

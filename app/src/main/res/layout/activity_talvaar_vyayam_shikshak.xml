@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sastracharya.talvaar.Talvaar_vyayam_shikshak">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="#060606"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" व्यायाम शिक्षक श्रेणी" />
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="#060606"
+
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n१) गर्दन काट- खोंच, आधा जनेऊ, छाती के पास तलवार लाकर काठी का
+
+तीसरा पचित्रा चलकर आगे बढ़ना, गर्दन काट के हाथ पाँव चक्र दाहिने पैर
+
+से।\n\n
+२) पलट गर्दन काट- खोच, सिर पर से हाथ रखकर पीछे पलट, दाहिना पैर
+
+बढ़ाकर आधा जनेऊ, तीसरे पवित्रे के साथ पौन चक्र।।\n\n
+३) चौमुखी एक- खोच, आधा जनेऊ, पवित्रे पर पूरा गर्दन काट, फिर खोच, आधा
+
+जनेऊ और पवित्रे पर गर्दन काट के साथ पाव चक्र।\n\n
+५) जनेऊ गर्दन उड्डान- खोच, १ आगे जनेऊ १ पीछे जनेऊ, खोज आधा
+जनेऊ, पवित्रे पर गर्दन काट के साथ पाव चक्र। चारों दिशाओं में वार मारना।
+\n\n\n
+--- द्वंद्व ---\n\n
+चार प्रहार-\n\n
+
+असि चर्म के साथ\n\n
+१) दाहिना पैर आगे लेकर तमाचा, बायाँ बढ़ाकर कमर।
+दाहिने पैर को आगे लेकर चीर और बायाँ पैर बढ़ाकर शिर पर प्रहार करना।
+प्रतिपक्षी एकएक पैर पीछे करते हुए चर्म पर इन प्रहारों को रोकता जाए।\n
+\n
+२)दाहिना पैर बढ़ाकर तमाचा, बायाँ आगे लेकर पालट मार, दाहिना आगे रखकर
+कमर और अणी मारना, पैर पीछे लेते हुए प्रहारों से सुरक्षा करना। - इनको
+
+दाहिने पवित्रे पर खड़ा होकर भी अभ्यास करें। \n\n
+छह प्रहार\n\n
+
+इसमें दोनों पवित्रा चलते हुए प्रहार और सुरक्षा करेंगे। अ और ब दाहिनी ओर
+पवित्रा चल कर तमाचा मारे और अपनी बायीं ओर सुरक्षा करें। इसी प्रकार
+बायीं ओर चल कर बाहेरा मारें और सुरक्षा करें। अ दाहिना पैर आगे लेकर
+दाहिनी ओर से तलवार घुमाते हुये चीर का प्रहार करे। ब बायाँ पैर पीछे कर
+अपनी सुरक्षा के साथ स्वयं भी प्रहार करे। अ बायां पैर आगे लेकर ब के सिर
+में प्रहार करे। ब अपने चर्म को सिर के ऊपर रख उससे सुरक्षा करे और
+दाहिना पैर पीछे रख स्वयं भी प्रहार करे। अगली बार व पैतरा चलते हुये आगे
+बढ़ता जायेगा।\n
+"
+        />
+    </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

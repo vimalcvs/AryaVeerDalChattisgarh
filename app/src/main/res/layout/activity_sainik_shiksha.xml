@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vyamacharya.Sainik_shiksha">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#060606"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="पाठ्यक्रम प्रथम श्रेणी आर्यवीर" />
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#060606"
+
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सैनिक शिक्षा \n\n
+१- सामने बायें, दाहिने हाथ के संकेत से पंक्ति बनवाना, दल, सज्ज, दक्षिणतो
+मिल, सम्मुखः, एक पंक्तिः, क्रमशः संख्या, द्वयोः संख्या, त्रिषु संख्या।\n
+२- दो, तीन, चार पंक्ति बनवाना, पंक्ति द्वयम्, पंक्ति त्रयम्, पंक्ति चतुष्टयम्।\n
+३- वामतः, दक्षिणतः, पृष्ठे, पुरो-यास्यति। वाम, दक्षिणं पृष्ठे-भ्रम।\n
+४- एकपात्, द्विपात्, त्रिपात्, चतुष्पात्-वामं, दक्षिणं, पृष्ठे, अग्रे-चल।\n
+५- वामार्द्ध, दक्षिणार्द्ध-भ्रम। \n
+६- संचलनम् (माचिंग)। \n\n
+
+त्रिषु वामतः क्षिप्रं चल, शनैश्चल, धावन् चल या धाव। चलते हुए - लम्बपादः,
+लघुपादः, पादपरिवर्तनम्, दक्षिणचक्रम्, वामचक्रम्, वामं भ्रम, दक्षिणं भ्रम, पृष्टे
+भ्रम, पादतालः, अग्रेसर, तिष्ठ।\n\n
+७- ध्वजारोहण, ध्वजावतरण का अभ्यास। \n
+
+वर्गनायक स्वस्थानम्, शेष आर्यवीर अनुसरत, उपवर्गनायक संख्या, गायक,
+वादक, ध्वजस्थानम्, ध्वजगानं, प्रारभस्व, नमस्ते, विकिर। आज्ञा देते समय दल
+नाम से सम्बोधित किया जाएगा।\n\n
+८- सभाओं में बैठने तथा अधिकारियों से वार्तालाप करने का ढंग। \n\n"/>
+        </RelativeLayout>
+
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#060606"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="पाठ्यक्रम द्वितीय वर्ष शाखा नायक\n" />
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#060606"
+
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" सैनिक शिक्षा \n\n
+पूर्व आज्ञाओं को दोहराना, सञ्चलन का अभ्यास चलते हुए दाहिनी ओर
+अभिवादन करना। दल दक्षिणतो नमस्ते दक्षिणदृक्, पुरोदृक्। आर्यवीर को स्वयं
+आज्ञा देने का अभ्यास करवाना चाहिए, जिससे वह दैनिक शाखा का सञ्चालन
+कर सके। "/>
+    </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#060606"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="उप व्यायाम शिक्षक श्रेणी\n" />
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#060606"
+
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सैनिक शिक्षा\n\n
+१) संचलन का अभ्यास, पूर्व अभ्यासों को दोहराना,\n
+२) चलते समय एक पंक्ति से दो या अधिक पंक्तियाँ बनाना तथा कई।
+पंक्तियों से एक पंक्ति बनाना.\n
+३) चलते हुए सामने नमस्ते देना.\n
+४) प्रहरी के कर्तव्य, प्रहरी बदलना\n
+५) सीटी के संकेत\n"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#060606"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="व्यायाम शिक्षक श्रेणी\n" />
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#060606"
+
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सैनिक शिक्षा\n\n
+१) व्यूह रचना \n
+२) भीड़ को नियत्रित करना \n
+३) पुलिस ग्रिप, हाथ, लाठी के
+संकेत\n
+४) लक्ष्य वेध ५) स्वयं आज्ञा देकर कार्य कराना।\n
+"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

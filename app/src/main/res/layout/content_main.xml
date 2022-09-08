@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="20.0dip">
+
+      <TextView
+          android:id="@+id/nationalid"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="आर्य वीर दल /आर्य वीरांगना दल "
+          android:textAppearance="?textAppearanceBodyLarge"
+          android:textColor="?android:textColorPrimary" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/nationalid"
+          android:textColor="?android:textColorTertiary"
+          android:text="अस्माकं वीरा उत्तरे भवन्तु -हमारे वीर विजयी हों|"
+          android:textAppearance="?textAppearanceBodySmall"/>
+
+      <com.google.android.material.imageview.ShapeableImageView
+          android:layout_width="60.0dip"
+          android:layout_height="60.0dip"
+          android:layout_marginBottom="5dp"
+          android:src="@drawable/aryaveernewlogo"
+          android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_weight="8"
+        android:columnCount="2"
+        android:padding="5dp">
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card1"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:src="@drawable/parichaya"
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/parichaya"
+              android:textAppearance="?textAppearanceTitleLarge"
+              android:textColor="?android:textColorPrimary"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card2"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+          <com.google.android.material.imageview.ShapeableImageView
+              android:src="@drawable/pathyakarampng"
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/pathyakaram"
+              android:textSize="20sp"
+              android:textStyle="bold"/>
+        </LinearLayout>
+
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card3"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:src="@drawable/vyayam_sangeet"
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:textStyle="bold"
+              android:text="@string/vyayamsangeet"
+              android:textSize="20dp" />
+        </LinearLayout>
+
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card4"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+          <com.google.android.material.imageview.ShapeableImageView
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"
+              android:src="@drawable/sangeet" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/sangeet"
+              android:textSize="20sp"
+              android:textStyle="bold"/>
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card5"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"
+              android:src="@drawable/document" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/dastavez"
+              android:textSize="20sp"
+              android:textStyle="bold"/>
+
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card6"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"
+              android:src="@drawable/ic_yoga_program" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/mantra"
+              android:textSize="20sp"
+              android:textStyle="bold"/>
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card7"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"
+              android:src="@drawable/newwlogo" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/aaryaveerdal"
+              android:textSize="20sp"
+              android:textStyle="bold"/>
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card8"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"
+              android:src="@drawable/newwlogo" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/aaryaveerangnadal"
+              android:textSize="18sp"
+              android:textStyle="bold"/>
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card9"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"
+              android:src="@drawable/social_media" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="@string/hamse_sampark_karen"
+              android:textSize="20sp"
+              android:textStyle="bold"/>
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:id="@+id/card10"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          style="?attr/materialCardViewElevatedStyle"
+          android:layout_margin="5dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:layout_width="?listPreferredItemHeightLarge"
+              android:layout_height="?listPreferredItemHeightLarge"
+              android:layout_gravity="center"
+              android:adjustViewBounds="true"
+
+              app:shapeAppearanceOverlay="@style/ShapeCornerCut"
+              android:src="@drawable/question" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="नया संकरण जल्द ही आएगा "
+              android:textSize="18sp"
+              android:textStyle="bold"/>
+
+        </LinearLayout>
+
+      </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+  </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

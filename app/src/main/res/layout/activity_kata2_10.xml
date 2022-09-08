@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nyudhamacharya.kata.kata2.Kata2_10">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="पदाघात सुरक्षा प्रत्याक्रमण :-" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:text=" १. हस्त तल प्रहार (चाइनीज काता) आक्रामक एवं रक्षक दोनों दाहिने पैंतरे पर खड़े हैं।"
+                android:textColor="#ffff"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="150.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.आक्रामक घसर के साथ दाहिना पैर आगे बढ़ाकर दाहिने
+हाथ की हथेली से मुख पर तथा बांयी हथेली से कलेजे
+पर एक साथ प्रहार करे। \n
+ रक्षक - दाहिने पैंतरे पर ही पीछे घसर या जम्प लेकर
+प्रहार को खाली करे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="150.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.आक्रामक बांया पैर आगे बढ़ाकर बांयी हथेली से मुख और दाहिनी से कलेजे (आमाशय) पर प्रहार करे। \nरक्षक दाहिना पैर पीछे लेकर दाहिने हाथ से अपर ब्लाक
+तथा बांये हाथ से नीचे पुश ब्लाक खुली हथेली से करे। "
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="150.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+
+                    android:layout_gravity="start"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.आक्रामक बांये पवित्रे पर ही आगे घसर लेकर दोनों हाथों से कमर की त्वचा पकड़ने का प्रयत्न करे।\n
+रक्षक उसी पैंतरे पर बांये पैर को सीधा करके कुछ पीछे
+होकर दोनों हाथों की मुट्ठी बान्ध ऊपर लाये और नीचे पुश ब्लाक, भीतर से बाहर करे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dip"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#060606"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4. आक्रामक दाहिना पैर आगे बढ़ाकर दाहिने हाथ से रक्षक की दाहिनी ग्रीवा की मांसपेशी या हंसली की हड्डी को अंगुलियों से पकड़ें इसे ईगल पंच कहते हैं। \n
+                     रक्षक- बांया पैर पीछे लेकर दाहिने हाथ से अपर ब्लाक करें। बांये या दाहिने हाथ से आक्रामक के दाहिने हाथ को उसके बायी ओर धकेले तथा दाहिने पैर को आगे किये हुये ही घसर आगे लेकर आक्रामक के पहले प्रहार की भांति प्रहार करे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

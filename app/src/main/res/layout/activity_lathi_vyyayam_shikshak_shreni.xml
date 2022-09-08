@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lathi.Lathi_vyyayam_shikshak_shreni">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+        </RelativeLayout>
+
+
+
+<TextView android:textSize="20.0sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:layout_gravity="start"
+    android:gravity="center"
+    android:hapticFeedbackEnabled="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15.0dip"
+    android:text=" व्यायाम शिक्षक श्रेणी"
+    android:layout_centerVertical="true"
+    android:fontFamily="serif" />
+
+
+
+
+<androidx.cardview.widget.CardView
+
+    android:layout_width="fill_parent"
+android:layout_height="50.0dip"
+android:layout_marginTop="15.0dip">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:text="1.पहले के सभी हाथों को मिलाकर घुमाने का अभ्यास।"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+
+    android:layout_width="fill_parent"
+android:layout_height="50.0dip"
+android:layout_marginTop="15.0dip">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:text="2.पदग्राह, पद प्राप्ति (घसर) के साथ सभी हाथों को करना।"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+
+    android:layout_width="fill_parent"
+android:layout_height="50.0dip"
+android:layout_marginTop="15.0dip">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:text="3.लाठी छूट, एक, दो या बहुतों के साथ द्वंद्व हल्ला फोड़।"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+
+    android:layout_width="fill_parent"
+android:layout_height="50.0dip"
+android:layout_marginTop="15.0dip">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:text="4.बन्दिश।"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+
+    android:layout_width="fill_parent"
+android:layout_height="50.0dip"
+android:layout_marginTop="15.0dip">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:text="5.चतुर्थ दिग"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+<androidx.cardview.widget.CardView
+
+    android:layout_width="fill_parent"
+android:layout_height="50.0dip"
+android:layout_marginTop="15.0dip">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:text="6.अष्ट दिग"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+
+    android:layout_width="fill_parent"
+    android:layout_marginBottom="15dp"
+android:layout_height="50.0dip"
+android:layout_marginTop="15.0dip">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:text="7.चमक"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

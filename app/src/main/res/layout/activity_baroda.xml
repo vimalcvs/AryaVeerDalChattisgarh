@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sastracharya.daan_patta.Baroda">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/nationalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="प्रो माणिकराव बड़ौदा " />
+
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_marginTop="15.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.सादी सलामी "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.आगे तीन घासर बांया पैर आगे सामने अणि मारना\n
+2.पीछे फलांग लेते हये बांयी ओर से दाहिनी ओर कंठ वार मारे।\n
+3.फत्यांग लेकर बांये पतरे पर खडे हो जायें। बाया हाथ सामने साधा।\n
+4.दाहिना पट्टे वाला हाथ मुडा हुआ पट्टा सामने ।
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.डुबेद सलामी --"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="सादी सयामी \n
+1.आगे तीन घसर सामने अणी\n
+2.पीले फलांग कण्ठं वार ।\n
+3.पीछे घूमकर सीधे हाथ से आणी मारना मुख दक्षिण में\n
+4. पट्टे वाले हाथ को पीछे से आगे दाहिने से
+बाय घुमाते हुये सिर के अपर से उत्तर में
+ले आये और सावधान की स्थिती में खड़े हो
+हो जाये।"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.पालट सलामी"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.सादी समामी के समान तीन घसर और आगे डाणी मारना ।\n
+2. बाएं हाथ से पट्टे वाले दाहिने हाथ को सहारा
+देकर पट्टा ऊपर उठाये और शिर पर पार करें\n
+3. शिर का प्रहार मारते हुये पट्टे को दाहिनी ओर
+से पीछे दक्षिण में जाये  दाहिना घुटना
+ऊपर उठ जायेगा । बांया हाथ पीछे सीधा रहेगा\n
+4. पट्टे को बायी ओर से ऊपर से नीचे घुमाते
+दूये दाहिना पर नीचे टिकाकर पाछे शिर पर प्रहार\n
+5.बाये पैर को घडी की विपरीत दिशा (उत्तर
+पश्चिम दक्षिण)की ओर पीछे झांसा ले
+और मख पिछे दक्षिण की शोर पट्टा शिर के
+ ऊपर ।\n
+6.  दाहिना पैर पीछे डालते हुए पीछे फलांग
+आणी का प्रहार।\n
+7. दाहिना पैर दाहिनी ओर से पीछे रखकर
+झांसा ले। मुख उत्तर में।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.दो डुबेद "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.दाहिना पैर आगे डालकर दाहिना जनेऊ मारे।\n
+2. पट्टे के हाथ को ऊपर लेकर सामने उत्तर में अणी मारे\n
+3.पीछे बाँया पैर दक्षिण पूर्व से उत्तर में रखते हुये पट्टे के हाथ के निचे से झांसा ले, मुख' उत्तर में रहेगा।\n
+4.उत्तर में अणी मारिये।\n
+5. कंण्ठवार करते हुये पीछे छलांग लिजीये।\n
+6. दक्षिण दिशा में अणी मारिया\n
+7.पट्टे के हाथ को दक्षिण पश्चिम उत्तर की ओर से शिर के ऊपर से घुमाते हुये उत्तर मे ले आइए\n
+8.बांये पैतरे पर स्थित हो जाईये।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card5"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="5.शेर धज :-"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="15.0sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.दाहिना पैर आगे डालकर दाहिना अनेक मारीये।\n
+2. पट्टे को बांशी ओर से पीछे घुमाते हुये दक्षिण
+ में घुम जाईये\n
+3. बांये हाथ से पट्टे वाले दाहिने हाथ को  सहारा देते हुये पट्टे को ऊपर उठाकर दक्षिण दिशा में शिर पर प्रहार मारे।\n
+4.दाहिन हाथ दक्षिण पश्चिम दिशा से उत्तर में घुमाते हुए दाहिना पैर उत्तर में ऊपर उठाकर रखे । मुख उत्तर दिशा में रहेगा।\n
+5.दाहिना पैर भुमी पर टिकाले हुए शिर वार कीजीये।।\n
+6. पट्टे के हाथ बांयी भुजा पर रखें और उछल कर पैतरा बदले तथा बांय से दाहिनी ओर सीना काट प्रहार मारे। बया पैर आगे रहेगा। बायां हाथ पश्चिम की ओर सीधा रखे।\n
+7.पैतरा बदल कर दाहिनी ओर से बांयी ओर पश्चिम दिशा में पट्टा घुमाते ये सीना कादाहिना पर आगे।\n
+8. नम्बर 6 की भांती फिर सीना काट\n
+9. पालट सलामी से पीछे जाना।" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card6"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="6.टुब फेर"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.दाहिना पैर आगे बढाकर बाथी गर्दन काट\n
+2.बांये पैर को केन्द्र बनाकर दाहिने पैर को घडी की, विपरीत दिशा में घुमाकर दुसरी बार गर्दन काट।\n
+3. फिर से दाहिने पैर का पुरा चक्र लेते हुये बांयी गर्दन काट ।\n
+4.दाहिने हाय को सीधा रखते हुये उत्तर की ओर अणी मारे \n
+5.बांया पैर दक्षिण पूर्व उत्तर से आगे रखते हुये माँसा लिजीए । हम बाँये पैतरे पर खड़े है । मुख उत्तर की ओर रहेगा।\n
+6.दाहिनी ओर से पिछे छलांग लेते हुये सीना काट,का वार मारे मुख तथा दाहिना पैर दक्षिण की ओर\n
+7.औधा हाथ करके दक्षिण की ओर अणी मारे।\n
+8.सिर के पीछे से पट्टा दक्षिण पश्चिम उत्तर दिशा से घुमाते हुए उत्तर की ओर मुख आ जायेगा।
+"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card7"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="7. सीधी गर्दन काट"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text=" 1.दाहिना पैर आगे बढाकर बाथी गर्दन काटा\n
+2.बांधे पैर को केन्द्र बना कर दाहिने पैर को घडी
+की विपरीत दिशा में घुमा कर पुरा चक्र और गर्दन काट का वार मारें।\n
+3.दुसरी बार फिर से उसी प्रकार दाहिने पैर का चक्र लेते हुये गदन काट।\n
+4.पट्टे को बांयी भुजा पर लेकर लाठी के राणमार की भांती सिर के ऊपर से घुमाकर, सीना काट उछल कर पैतरा बदलें बांया पर आगे।\n
+5.दाहिने पैर को आगे रखते हुये पट्टे को सिर के ऊपर से घमाते हुए दाहिनी ओर से जनेऊ का वार मारे ।\n
+6. बांगे पैर को दक्षिण पूर्व की ओर से उत्तर में रखते हुये पट्टे को सिर के ऊपर से घुमाकर दक्षिण में सीना काट । अब हम दक्षिण दिशा में दाहिने पेतर पर खडे है।\n
+7.दाहिने पैर को दक्षिण पश्चिम दिशा से उत्तर में रखते हुये टिकाये, मुख दक्षिण की ओर\n
+8.बांये पैर को केन्द्र बनाकर दाहिने पैर का घडी की विपरीत दिशा में पूरा चक्र लेकर उलर दिशा में गर्दन काट । दाहिना पर आगे रखकर हम उत्तर दिशा में खडे है।\n
+9.पीछे रखे हुये बाये पर को दक्षिण पूर्व दिशा से उत्तर में रखे मख दक्षिण की ओर रखते हुये गर्दन काट का वार मारे।\n
+10.दाहिना पैर दक्षिण पशिम दिशा से उत्तर की ओर
+रखते हुये दक्षिण दिशा में सीना काट बाग से दाहिने करें ।\n
+11.पट्टे के हाथ को बांये से दाहिने घुमाने हुये उत्तर दिशा में ले आये. दाहिना पैर और मुख उत्तर में रहेगा।\n
+12. औंधें हाथ से उत्तर में अणी मारीये और सीधे पथ से पट्टा उत्तर पूर्व दक्षिण में घुमाते हुये दक्षिण दिशा में ले आयें। फिर ये
+पहले स्थान पर आने के लिए सभी प्रहारों को मारकर बांये पैतरे पर खरे हो जाये।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card8"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="8.चीर अणी"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="डुब फेर का हाथ पुरा किजीये। \n
+
+1.दाहिना पैर आगे डालकर जनेऊ मारिये।\n
+2.पट्टा बांयी बगल में लेकर सामने उत्तर दिशा में नीचे से ऊपर चीर का प्रहार।\n
+3.सीधे हाथ से उत्तर दिशा में अणी।\n
+4.बांये पैर को. दक्षिण , पूर्व से उत्तर की दिशा में लेकर झांसा लिजीये। मुख उत्तर में\n
+5.दाहिना पैर दक्षिण पश्चिम दिशा से उत्तर की ओर राखते हुये  कामर काट शत्रु के दाहिनी ओर\n
+6.उत्तर की ओर सीधे हाथ से अणी\n
+7.पट्टे वाले हाथ को उत्तर पूर्व से शिर के ऊपर से लेकर मुख दक्षिण में हो जायगा। इस समय बाय पंतरे पर दक्षिण दिशा में मुख रहेगा।\n
+5.अपने स्थान पर वापीय जाने के लिए पुर्ववत सारी क्रियाये कीजिए"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card9"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="9.डुब फेर का हाथ पुर्ण किजीये।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.दाहिना पैर आगे रखकर उत्तर दिशा में अपने दाहिनी ओर से कमर काट\n
+2.पट्टे को बाथी ओर से पिछे दक्षिण में ले जाकर औंधे हाथ से अणी। मुख दक्षिण में।\n
+3. बाधा पैर का टाक्षिण पश्चिम से आधा चक्र और फिर दाहिना पैर का प्रकार दक्षिण पश्चिम दिशा से आधा लेकर उसे उत्तर में रखे पट्टे वाले हाथ से झाँसा लेकर दक्षिण में शिर का प्रहार \n
+4. दक्षिण में अणी और पलट कर रलर में सिर का  वार मख उत्तर में दाहिना पैर आगे।\n
+5.उत्तर में सीधे हाथ से अणी\n
+6.पट्टे को सिर के ऊपर से उत्तर पूर्व दिशा से घुमाते हुये दक्षिण दिशा में ले आइये।\n
+7. फिर से पहले स्थान पर जाने के लिए पूर्ववत सारी क्रिया किजीया"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card10"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="10.गर्दन काट - द्वि चीर"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="डुब फेर का हाय किजीये।
+
+1.दाहिना पैर आगे उतर दिशा में आगे डालकर
+गर्दन काट और प्रहार के पश्चात पट्टा बांयी बगल में\n
+2.बांधी ओर से उतर दिशा में चीर वार मारना।\n
+3.दाहिने पैर को केंद्र बनाकर घडी की दिशा में पूरा चक्र लेकर पीछे रखें और पट्टे को शिर के ऊपर से घुमाकर बांयी ओर से उत्तर में चीर का वार।\n
+4. तीसरा चीर का प्रहार क्रमश: बांया और दाहिना पैर दक्षिण पश्चिम दिशा से उत्तर में रखकर चीर का प्रहार करे। दाहिना पैर आगे\n
+5. सीधे हाथ से उत्तर की ओर अणी मारें।\n
+6. पट्टे के शिर के ऊपर उत्तल पूर्व से घमाते हुये दक्षिण में ले आइये मुख दक्षिण में बांया पैर आगे\n
+7.फिर से पहले स्थान पर आने के लिये पर्ववत सभी अभ्यास करके मुख उत्तर में किजीए"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card11"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="11. चक्र से जनेऊ :- "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="डुब फेर का हाथ पुरा किजीये।\n
+
+1.दाहिना पैर आगे डालकर जनेऊ का प्रहार उत्तर दिशा में मारीये\n
+2. पट्टे को दक्षिण पश्चिम उत्तर पूर्व से धुमाकर पीठ के पीछे ले आये। मख उलर मे दाहिना पैर आगे।\n
+3. दाहिनी ओर से पट्टे का उलटा चीर उत्तर दिशा में मारे\n
+4.प्रहार मार कर पट्टा ऊपर ले तथा बाँया हाथ भूमि में टिकाकर बांया घुटना मोड ले और दाहिना पैर उत्तर दिशा में सीधा रखे।\n
+5.बांया पैर बाये से आगे लेकर बांयी ओर से उत्तर की दिशा में चीर का वार मारे।\n
+6.दाहिने पैर को उत्तर की दिशा में रखते हुये दक्षिण दिशा में शिर का वार मारे बाया पैर और मुख दक्षिण मे।\n
+7. पट्टे को अपने दाहिनी ओर उत्तर की दिशा में घुमाकर सीधे हाथ से अणी का प्रहार करे।\n
+8. सिर के ऊपर से पट्टा उत्तर पूर्व की ओर\n
+9. पहले स्थान पर जाने के लिए पुर्ववत सभी अभ्यास किजीये।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card12"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="12.कमर काट"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="डुब फेर का हाथ पुरा किजीये।\n
+1.आगे फलांग लेकर दक्षिण की दिशा में कमर काट का प्रहार । दाहिना पैर आगे।\n
+2.पूर्ववत फालाग लेकर दक्षिण दिशा में दूसरी बार कमर काट।\n
+3.सिर के ऊपर से पट्टा घमाते हुये दाहिना पैर उत्तर में रखकर सीधे हाथ से अणी मारे। पट्टे को उत्तर-पूर्व की ओर से घुमाते हुये दक्षिण दिशा में ले आये। बांया पैर आगे मुख दक्षिण में\n
+5. फिर से पुर्ववत सारी क्रिया करें।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card13"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="13.तीन लपेट"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="15.0dip"
+                android:text="डब फेर का हाथ पूरा किजीये।\n
+
+1. उत्तर की ओर दाहिना पैर टिकाकर सीनाकाट पुर्व से पाश्चम दिशा मे मारे।\n
+2.बांया पैर को केन्द्र बनाकर दाहिने पैर को उत्तर, पाश्चम दक्षिण पुर्व दिशा से गोलाकार घुमाकर फिर दूसरी बार सीना काट\n
+3.बाये पैर को दक्षिण पूर्व से उत्तर में रखकर उलर मे आँध हाथ से अणी मारीये ।\n
+4.दाहिने पैर को दक्षिण पश्चिम से उत्तर में रखते हुये झांसा लिजीये।\n
+5.सीधे हाथ से उत्तर में अणी मारें।\n
+6.पट्टे के हाथ को ऊपर से उत्तर पर्व की ओर से घुमाकर  दक्षिण में ले आया बाँया पैर आगे मुख दक्षिण की ओर\n
+7.पुर्ववत सभी अश्यास करके, पहली स्थिती में आ जाइये।"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

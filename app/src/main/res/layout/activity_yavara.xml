@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sastracharya.Yavara">
+
+  <LinearLayout android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10.0dip">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+      <TextView
+          android:textSize="20.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="यावारा:-" />
+      <TextView
+          android:textSize="18.0sp"
+          android:textColor="#060606"
+
+          android:gravity="center"
+
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="यावारा 6 इंच मोटी लकड़ी को कहते हैं जो कि निकट के संघर्ष में प्रहार के प्रयुक्त की जाती है
+ यावारा को दाहिने हाथ की मुट्ठी में पकड़े हैं मुठठी
+ भूमि की ओर रहेगी हाथ सामने बाएं हाथ की हथेली के सामन्तर आगे पीछे दाहिने हाथ की मुट्ठी में
+ पकड़कर दाहिना हाथ दाहिने पैर के पास रहेगा बाया पैर आगे झुका हुआ और दाहिना पैर पीछे सीधा" />
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card1"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="#060606"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="1.बाया पैर आगे करके पवित्रे पर खड़े हैं"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+
+      </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card2"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="1.दाहिना पैर आगे बढ़ाकर आपको घुमा कर प्रति पक्षी की दाहिनी कनपटी पर आवारा का प्रहार करें प्रहार के पश्चात पीठ पर पक्षी की ओर हो जाएगी"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card3"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="2.बाया पैर को पीछे कर के प्रति पक्षी की ओर पीठ किए हुए ही यावारा से उसकी छाती या पसली पर प्रहार करें"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card4"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="3.दाहिना हाथ को ऊपर उठाकर मोड़े और ऊपर के माथे पर प्रहार करें"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card5"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="#060606"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="4.दाहिना पैर दाहिनी ओर से घूमते हुए सामने आकर बाई कनपटी पर प्रहार करें"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card6"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="2.बाय पवित्रे  पर खड़े हैं दाहिने हाथ में आवारा"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card7"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="1.दाहिना पैर आगे करके बाई कनपटी पर यावारा का प्रहार करें"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card8"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:textColor="#060606"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="2.आधा दिशा बदल जाएगी पीठ प्रतिपक्षी की ओर दाहिने हाथ से यावारा का प्रहार उसके गुप्तांगों या पेट पर प्रहार करें"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card9"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="3.हाथ को निकालकर और दिशा बदल कर उसके सामने आकर सिर पर प्रहार"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card10"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="4.बाएं पैर को पूरा घुमा कर गुप्तांगों पर किक मारिए "
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card11"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="5.दाहिने पैर को आगे करके पेट में सीधे यावारा का प्रहार करना चाहिए"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_width="600dp">
+      <TextView android:textSize="20.0sp"
+          android:textColor="#060606"
+          android:gravity="center"
+          android:textStyle="bold"
+          android:id="@+id/shesha"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" सामने अण्डर कट" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card12"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="1.दाहिने पैर बढ़ाकर सिर पर वार मारे"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card13"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="2. इसी पैर को आगे रखकर दाहिनी कनपटी पर मारे"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card14"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:text="3.हाथ को बाएं ओर से घुमाकर दाहिनी पसली पर प्रहार"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card15"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginBottom="10dp"
+            android:text="4.इसके साथ ही दाहिनी कनपटी पर वार मारे"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card16"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginBottom="10dp"
+            android:text="5.दाहिने हाथ को निकालकर बाईं ओर की हसली की हड्डी पर मारे और हड्डी पर यावारा रखकर प्रति पक्षी को नीचे बैठा दें या ग्रीवा बंद लगा दे"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+      <TextView
+          android:textSize="20.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="दो प्रतिद्वंदी होने पर:-" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+      <TextView
+          android:textSize="20.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="बाया" />
+      <TextView
+          android:textSize="18.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:layout_marginLeft="200dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="दाहिना" />
+
+      <TextView
+          android:textSize="20.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:layout_marginLeft="200dp"
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="बाईं कनपटी" />
+
+      <TextView
+          android:textSize="20.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+
+          android:layout_marginTop="40dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" दाहिनी कनपटी " />
+      <TextView
+          android:textSize="18.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:layout_marginTop="40dp"
+          android:gravity="center"
+          android:layout_marginLeft="200dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="गुप्तांगो पर प्रहार" />
+      <TextView
+          android:textSize="20.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:layout_marginTop="60dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="दाहिना पैर बढ़ाकर पेट पर प्रहार" />
+      <TextView
+          android:textSize="18.0sp"
+          android:textColor="#060606"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:layout_marginTop="60dp"
+          android:layout_marginLeft="200dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="घूम कर सिर पर वार" />
+
+    </RelativeLayout>
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card17"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginBottom="10dp"
+            android:text="5.दाहिना हाथ की मुट्ठी में यावारा पकड़ कर दोनों हाथ पीछे करके विश्राम की स्थिति में खड़े हो जाइए"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+      <TextView android:textSize="15.0sp"
+          android:textStyle="bold"
+          android:textColor="@color/cardview_dark_background"
+          android:layout_gravity="start"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="15.0dip"
+          android:layout_marginBottom="10dp"
+          android:text="प्रति पक्षी द्वारा घुटने का प्रहार करें दाहिना पैर पीछे लेकर यावारा का प्रहार उसकी जांघ पर करें दूसरा प्रहार पेट में दाहिना पैर आगे बढ़ाकर मारे तीसरा प्रहार गले पर मार्कर और सोल्जर थ्रो दाव लगाकर उसे नीचे डाल दें तथा नीचे डालकर अंतिम प्रहार करें"
+          android:layout_centerVertical="true"
+          android:fontFamily="serif" />
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card18"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginBottom="10dp"
+            android:text="6.सामने प्रतिद्वंदी होने पर:-"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card19"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginBottom="10dp"
+            android:text="1. बाया पैर का लीवर लेकर उछलते हुए दाहिना पैर आगे बढ़ाकर दाहिने ओर छाती पर प्रहार"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card20"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginBottom="10dp"
+            android:text="2.बाई ओर घूमते हुए बाएं पैर की राउंड किक पेट में मारना"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card21"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+        <TextView android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginBottom="10dp"
+            android:text="3.उछलते हुए दाहिना पैर आगे करके बाईं कनपटी पर यावारा मारना"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+  </LinearLayout>
+
+
+
+</ScrollView>

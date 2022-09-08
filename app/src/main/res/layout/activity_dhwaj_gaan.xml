@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".mantra.Dhwaj_gaan">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="23.0sp"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----ध्वजगान----" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text=""
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card21"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@color/colorPrimaryDark"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text="ध्वजगान\n\n
+ध्वजेयं मुदा वर्धते व्योमवातैः समुड्डीयमानान्तरिक्षे विशाले ।\n
+महामण्डले दीप्तदिव्यारुणाभे सुभासैर्रर्वेर्भासते-ओ३म् पताका ।।\n\n
+प्रबुद्धार्यवर्तेकदेशे प्रशस्ता, समस्तार्यवीरैर्धृता या समन्तात् ।\n
+पुरा ज्ञानज्योतिः प्रदत्तं पृथिव्यां, सुधावेदवाण्या नुता गीयते च ।।\n\n
+समुद्धर्तुकामा वयञ्चार्यवीराः, समुत्थाप्यतां विश्वमेतत्प्रसुप्तम् ।\n
+इयं सार्यराष्ट्रांगभूता ध्वजाऽऽस्ते, पराशक्तिरूपा दधातु स्वशक्तिम् ।।\n\n
+ महामंगले विश्वशान्त्यैकमूर्ते, सुकीर्तिः सदा वर्धतां ते प्रशस्या ।\n
+समुद्घोषणा घोष्यते वीरघोषैः, विजेजीयतां नः पताकाऽपतापा ।।\n\n
+
+ **ध्वजगान का अर्थ**
+\n\n
+यह ओ३म् पताका विशाल अन्तरिक्ष में आकाश में चलनेवाली वायु द्वारा उड़ायी जाती हुई सुशोभित होकर फहरा रही है।
+प्रातःकाल उगते सूर्य के अरुण रंग से प्रकाशित विस्तृत आकाश मण्डल मेंफैली सूर्य की किरणों से इसकी शोभा और बढ़ गई है।\n
+इस ध्वजा को प्राचीन काल में आर्यावर्त्त देश के समस्त आर्य वीरों ने अपनेहाथों में लेकर सारे भूमण्डल को ज्ञान के प्रकाश से आलोकित किया। हम आर्यवीरों ने इस पताका को हाथ में लेकर सोये हुए (वेद ज्ञान से विहीन) संसार को जगाने का निश्चय किया है। आर्यराष्ट्र में इस ध्वजा का विशिष्ट स्थान है।\n पराशक्ति को देनेवाली यह पताका हमें अपने ब्रह्म-तेज और क्षात्र-बलरूप शक्ति से युक्त करे। हे महाकल्याणकारक विश्वशान्ति का सन्देश देनेवाली ओ३म् पताके! तेरा यशकीर्ति सदा बढ़ती रहे। हम आर्यवीरों का यह प्रबल जयघोष है कि सकल पापों की निवारक इस ओ३म् पताका का सदैव विजय होता रहे।"
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

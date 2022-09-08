@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_1">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/nationalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="अ- आक्रामक, ब - रक्षक " />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="अ ने दाहिने हाथ से ब की बांयी कलाई पकड़ी हुई है। दोनों सामान्य स्थिति में खड़े हुये हैं। "
+
+
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.ब-दाहिने पैर को आगे बढ़ाये और दाहिने हाथ से अपनी बांयी मुट्ठी पकड़ कर ऊपर की ओर झटका मारते हुये अपनी पकड़ छुड़ाले और दोनों हाथों का मुष्टि प्रहार अ के नाक पर मारे एवं कुछ नीचे झुककर दोनों हथेलियों से प्रहार स्तनों से नीचे छाती पर करे । "
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.ब दाहिने पैर को अ के दाहिने पैर के बाहर लेते हुये दाहिनी हथेली का प्रहार अ की ठोडी पर मारे और उसकी ठोड़ी को पीछे दबाते हुये अ को पीछे भूमि पर गिरा दे तथा । दाहिना मुष्टि प्रहार अ के मुख, कनपटी या दाहिनी पसलियों
+पर मारे। "
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.ब दाहिने पैर को आगे लेते हुये दाहिना मुष्टि प्रहार अ के नाक पर मारे और तुरन्त घड़ी की विपरीत दिशा में कुछ बांयी ओर घूमते हुये दाहिनी कलाई का प्रहार अ की दाहिनी कलाई पर मारे और अपने बांये हाथ की पकड़ को छुड़ा ले तथा बांये हाथ का प्रहार अ की दाहिनी कनपटी पर मारे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="4.ब अपनी बांयी कलाई को बाहर की ओर मरोड़ते हुये ऊपर उठाये और अपनी दाहिनी हथेली से अ के दाहिने हाथ के पंजे को दबाते हुये अपनी पकड़ को छुड़ा ले तथा उसकी कलाई को आगे की ओर दबाये । इससे अ आगे की ओर झुक जायेगा । अ के नीचे झुकने पर ब दाहिने पैर का प्रहार कलेजे या मुख पर मारे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

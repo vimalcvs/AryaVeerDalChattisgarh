@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".mantra.Sayan_mantrah">
+
+    <LinearLayout android:orientation="vertical"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="0.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="23.0sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----शयन मंत्र----" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text=""
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card21"
+            android:layout_width="fill_parent"
+
+            android:layout_height="match_parent"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@color/colorPrimaryDark"
+
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text="यज्जाग्रतो दूरमुदैत दैवं तदु सुप्तस्य तथैवैति । \n
+                   दूरङ्गमं ज्योतिषां ज्योतिरेकं तन्मे मनः शिवसङ्कल्पमस्तु॥२०॥\n
+-यजुः० ३४।१\n\n
+
+येन कर्मांण्यपौ मनीषिणो यज्ञे कृण्वन्ति विदथेषु धीराः।\n
+यदपूर्वं यक्षमन्तः प्र॒जानां तन्मे मनः शिवसङ्कल्पमस्तु॥२१॥\n
+-यजु:०३४।२\n\n
+
+यत्प्र॒ज्ञानमुत चेतो धृतिश्च यज्योतिरन्तरमृतै प्र॒जासु।यस्मान्न\n
+ऋते किञ्चन कर्म क्रियते तन्मे मनः शिव-सङ्कल्पमस्तु॥२२॥\n
+-यजुः० ३४।३\n\n
+
+येनेदं भूतं भुवनं भविष्यत् परिगृहीतममृतेन सर्वम्।\n
+येन य॒ज्ञस्तायते सप्तहोता तन्मे मनः शिवसङ्कल्पमस्तु॥२३॥\n
+-यजुः० ३४।४\n\n
+
+यस्मिन्नृचः साम यजूषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः।\n
+यस्मिंश्चित्त सर्वमोतं प्रजानां तन्मे मनः शिवसङ्कल्प-
+मस्तु॥२४॥\n
+-यजुः० ३४।५\n\n
+सुषारथिरश्वानिव यन्मनुष्यान्नेनीयतेऽभीशुभिर्वाजिनऽइव।\n
+हृत्प्रतिष्ठं यदजिरं जविष्ठं तन्मे मनः शिवसङ्कल्पमस्तु॥२५॥\n
+-यजुः०३४।६\n\n"
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

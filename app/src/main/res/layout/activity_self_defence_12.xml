@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_12">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/nationalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  सामने रिवाल्वर " />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="अ ने पीछे से दाहिने हाथ से ब के बाल पकड लिये हैं। और वह ब को पीछे की ओर खींच रहा है।"
+
+
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="230.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.अ अपनी दाहिनी कमर में लटके रिवाल्वर को दाहिने हाथ से निकाल कर ब पर आक्रमण कर रहा है। ब तुरन्त फुर्ती से दाहिना पैर आगे बढ़ाते हुये अ के दाहिने पैर के आगे रखे और बायें हाथ से रिवाल्वर को निकालते हुये ही दबा ले। ब दाहिना हाथ अ की बांयी ग्रीवा पर रखे और अ को बांयी ओर गिरा दे।
+३.अ ने ब की छाती के सामने रिवाल्वर लगा कर उसके हाथ
+ऊपर करा दिये हैं।
+
+ सुरक्षा - ब अपने बांयी ओर को घूमे तथा दाहिने हाथ की कोहनी से अ के दाहिने हाथ को उसके दाहिनी ओर हटाये और शीघ्रता से अपने बांये हाथ से उसकी कलाई तथा मुट्ठी पकड़ ले। अब ब अपने दाहिने हाथ की हथेली से अ की ठोड़ी पर प्रहार करे तथा साथ ही दाहिने पैर की टंगी मार कर उसे नीचे गिरा दे और दाहिना घुटना उसकी छाती पर रखकर उसके दाहिने हाथ को मरोड़ते उसका रिवाल्वर छीन ले।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="2.अ छाती के सामने निशाना साध रहा है और ब के हाथ ऊपर करा दिये हैं
+
+ सुरक्षा - फुर्ती से अपना दाहिना पैर अ के बांयी ओर आगे बढ़ाते हुये दोनों हाथों से अ का रिवाल्वर मुट्ठी सहित पकड़ कर उसे घड़ी की विपरीत दिशा में मरोड़ कर रिवालवर छीन ले।
+"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="150.0dip"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="3.अ दाहिना पैर बढ़ाकर दाहिने हाथ से ब पर सामने से
+निशाना साध रहा है।
+
+
+ सुरक्षा - ब अ का ध्यान बटाने के लिये दाहिने हाथ से सामान फेंके या किसी को बुलाने के लिये संकेत करे । जब अ का ध्यान उधर चला जाये तो फुर्ती से अपना दाहिना पैर दाहिनी ओर बढ़ा कर बांये हाथ से ब का दाहिना हाथ पकड़ ले और अपने दाहिने हाथ की हथेली अ की ठुड्डी के नीचे तथा दाहिना पैर अ के दाहिने पैर के पीछे लगा कर उसे पीछे गिरा दे।"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp">
+
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="नोट प्रत्येक दाव लगाते समय यह ध्यान रखे कि रिवाल्वर की नली का मुख अपनी ओर न होने पाये।"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pustakalaya.Swami_Devvratji_Ki_Pustakeen">
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="50.0dip">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card11"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/yoga_book1" />
+            <TextView android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:text="योग शिक्षा 1"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card12"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/yoga_book2" />
+            <TextView android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:text="योग शिक्षा 3"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card13"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/yoga_book3" />
+            <TextView android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:text="योग शिक्षा 3"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card14"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/yoga_book4" />
+            <TextView android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:text="योग शिक्षा 4"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

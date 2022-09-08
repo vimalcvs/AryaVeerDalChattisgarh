@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".mantra.Yagya_mantra">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="23.0sp"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----सामान्य नित्य यज्ञ पद्धति----" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text=""
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card21"
+            android:layout_width="fill_parent"
+
+            android:layout_height="match_parent"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@color/colorPrimaryDark"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text="   सामान्य नित्य यज्ञ पद्धति\n\n
+
+          अथाचमनमन्त्राः
+\n\n
+ओ३म् अमृतोपस्तरणमसि स्वाहा ।।१।।\n
+ओ३म् अमृतापिधानमसि स्वाहा ।।२।।\n
+ओ३म् सत्यं यशः श्रीमयि श्रीः श्रयतां स्वाहा ।।३।।
+\n\n
+          अथांगस्पर्शमन्त्राः\n\n
+
+ओ३म् वाङ्म आस्येऽस्तु ।\n
+ओ३म् नसोर्मे प्राणोऽस्तु।\n
+ओ३म् अक्ष्णोर्मे चक्षुरस्तु।\n
+ओ३म् कर्णयोर्मे श्रोत्रमस्तु ।\n
+ओ३म् बाह्वोर्मे बलमस्तु ।\n
+ओ३म् ऊर्वोर्मऽओजोऽस्तु ।\n
+ओ३म् अरिष्टानि मेऽङ्गानि तनूस्तन्वा मे सह सन्तु ।
+\n\n
+           अथेश्वरस्तुतिप्रार्थनोपासनामन्त्राः
+\n\n
+ओ३म् । विश्वानि देव सवितर्दुरितानि परा सुव ।\n
+यद् भद्रन्तन्न आ सुव ।।१ ।।\n\n
+हिरण्यगर्भः समवर्त्तताग्रे भूतस्य जातः पतिरेक आसीत् ।\n
+स दाधार पृथिवीं द्यामुतेमां कस्मै देवाय हविषा विधेम ।।२।।\n\n
+य आत्मदा बलदा यस्य विश्व उपासते प्रशिषं यस्य देवाः ।\n
+यस्य छायाऽमृतं यस्य मृत्युः कस्मै देवाय हविषा विधेम ।।३।।\n\n
+यः प्राणतो निमिषतो महित्वैक इद्राजा जगतो बभूव ।\n
+य ईशेऽअस्य द्विपदश्चतुष्पदः कस्मै देवाय हविषा विधेम ।।४।।\n\n
+येन द्यौरुग्रा पृथिवी च दृढा येन स्वः स्तभितं येन नाकः ।\n
+योऽअन्तरिक्षे रजसो विमानः कस्मै देवाय हविषा विधेम ।।५।।\n\n
+प्रजापते न त्वदेतान्यन्यो विश्वा जातानि परि ता बभूव ।\n
+यत्कामास्ते जुहुमस्तन्नोऽअस्तु वयं स्याम पतयो रयीणाम् ।।६।।\n\n
+स नो बन्धुर्जनिता स विधाता धामानि वेद भुवनानि विश्वा ।\n
+यत्र देवा अमृतमानशानास्तृतीये धामन्नध्यैरयन्त ।। ७।।\n\n
+अग्ने नय सुपथा रायेऽअस्मान् विश्वानि देव वयुनानि विद्वान् ।\n
+युयोध्यस्मज्जुहुराणमेनो भूयिष्ठान्ते नमऽउक्तिं विधेम ।।८।।\n\n
+
+       अग्न्याधानम्
+\n\n
+ओ३म् भूर्भुवः स्वः ।\n
+ओ३म् भूर्भुवः स्वौरिव भूम्ना पृथिवीव वरिम्णा ।\n
+तस्यास्ते पृथिवि देवयजनि पृष्ठेऽग्निमन्नादमन्नाधायादधे ।।\n\n
+ओ३म् उबुध्यस्वाग्ने प्रतिजागृहि त्वमिष्टापूर्ते स सृजेथामयं च ।\n
+अस्मिन्सधस्थेऽअध्युत्तरस्मिन् विश्वे देवा यजमानश्च सीदत ।।\n\n
+\n\n
+    समिदाधानम्
+\n\n
+ओ३म् अयन्त इध्म आत्मा जातवेदस्तेनेध्यस्व वर्धस्व चेद्ध\n
+वर्द्धय चास्मान् प्रजया पशुभिर्ब्रह्मवर्चसेनान्नाद्येन समेधय स्वाहा ।।\n
+इदमग्नये जातवेदसे - इदन्न मम ।।१।\n\n
+ओ३म् समिधाग्निं दुवस्यत धृतैर्बोधयतातिथिम् ।\n
+आस्मिन् हव्या जुहोतन स्वाहा ।\n
+इदमग्नये जातवेदसे - इदन्न मम ।।२।।\n\n
+सुसमिद्धाय शोचिषे घृतं तीव्र जुहोतन । अग्नये जातवेदसे स्वाहा ।\n
+इदमग्नये जातवेदसे - इदन्न मम ।।३।।\n\n
+ओ३म् तन्वा समिद्भिरंगिरो घृतेन वर्द्धयामसि ।\n
+बृहच्छोचा यविष्ठ्य स्वाहा । इदमग्नयेऽङ्गिरसे - इदन्न मम ।।४।।\n\n
+इस मन्त्र से तीसरी समिधा चढ़ाएँ
+\n\n
+      पंचघृताहुतिमन्त्रः
+\n\n
+ओ३म् अयन्त इध्म आत्मा जातवेदस्तेनेध्यस्व वर्धस्व चेद्ध\n
+वर्द्धय चास्मान् प्रजया पशुभिर्ब्रह्मवर्चसेनान्नाद्येन समेधय स्वाहा ।\n
+इदमग्नये जातवेदसे - इदन्न मम ।।\n\n
+
+ जलसिञ्चनमन्त्राः
+\n\n
+ओ३म् अदितेऽनुमन्यस्व । इससे पूर्व में\n
+ओ३म् अनुमतेऽनुमन्यस्व । इससे पश्चिम में\n
+ओ३म् सरस्वत्यनुमन्यस्व । इससे उत्तर दिशा में\n
+ओ३म् देव सवितः प्रसुव यज्ञं प्रसुव यज्ञपतिं भगाय ।\n
+दिव्यो गन्धर्वः केतपू: केतं नः पुनातु वाचस्पतिर्वाचं नः स्वदतु ।।\n\n
+            इस मन्त्र से चारों ओर जल छिड़काएँ
+\n\n
+ आघारावाज्यभागाहुतिमन्त्राः
+\n\n
+ओ३म् अग्नये स्वाहा ।। इदमग्नये - इदन्न मम ।।\n
+                             **इस मन्त्र से वेदी के उत्तर भाग अग्नि में**
+\n\n
+ओ३म् सोमाय स्वाहा ।। इदं सोमाय - इदन्न मम ।।\n
+                              **इससे दक्षिणभाग अग्नि में**
+\n\n
+ओ३म् प्रजापतये स्वाहा ।। इदमग्नये प्रजापयते - इदन्न मम ।।\n
+ओ३म् इन्द्राय स्वाहा ।। इदमिन्द्राय- इदन्न मम ।।\n
+                            **इन दोनों मन्त्र से वेदी के मध्य में दो आहुति दें।**\n\n
+
+ प्रातःकालीन-आहुतिमन्त्राः
+\n\n
+ओ३म् सूर्यो ज्योतिर्योतिः सूर्यः स्वाहा ।।\n
+ओ३म् सूर्यो वर्षो ज्योतिर्वर्चः स्वाहा ।।\n
+ओ३म् ज्योतिः सूर्यः सूर्यो ज्योतिः स्वाहा ।।\n
+ओ३म् सजूदेवेन सवित्रा सजूरुषसेन्द्रवत्या जुषाणः सूर्यो वेतु स्वाहा ।।
+\n\n
+ प्रातः सायंकालीनमन्त्राः
+\n\n
+ओ३म् भूरग्नये प्राणाय स्वाहा । इदमग्नये प्राणाय - इदन्न मम ।।\n
+ओ३म् भुवर्वायवेऽपानाय स्वाहा । इदं वायवेऽपानाय - इदन्न मम ।।\n
+ओ३म् स्वरादित्याय व्यानाय स्वाहा । इदमादित्याय व्यानाय - इदन्न मम ।।\n
+ओ३म् भूर्भुवः स्वरग्निवाय्वादित्येभ्यः प्राणापानव्यानेभ्यः स्वाहा ।\n
+इदमग्निवाय्वादित्येभ्यः प्राणापानव्यानेभ्यः-इदन्न मम ।।\n
+ओ३म् आपो ज्यो ती रसोऽमृतं ब्रह्म भूर्भुवः स्वरों स्वाहा ।।\n
+ओ३म् यां मेधां देवगणाः पितरश्चोपासते ।\n
+तया मामद्य मेधयाऽग्ने मेधाविनं कुरु स्वाहा ।।\n
+ओ३म् विश्वानि देव सवितर्दुरितानि परा सुव। यद्भद्रं तन्न आ सुव स्वाहा ।।\n
+ओ३म् अग्ने नय सुपथा राये अस्मान्विश्वानि देव वयुनानि विद्वान् ।\n
+युयोध्यस्मज्जुहुराणमेनो भूयिष्ठां ते नमऽउक्तिं विधेम स्वाहा ।।\n\n
+
+ सायंकालीन-आहुतिमन्त्राः \n\n
+
+ओम् अग्निर्ज्योतिर्योतिरग्निः स्वाहा ।।\n
+ओम् अग्निर्व! ज्योतिर्वर्चः स्वाहा ।।\n
+ओम् अग्निर्कोतिर्कोतिरग्निः स्वाहा ।।\n\n
+
+**इस मन्त्र को मन में बोलकर एक आहुति दें।**
+\n\n
+
+ओ सजूदेवेन सवित्रा सजूरात्र्येन्द्रवत्या ।\n
+जुषाणोऽअग्निर्वेतु स्वाहा ।।\n\n
+
+ स्विष्टकृत-आहुतिमन्त्रः
+\n\n
+ओं यदस्य कर्मणोऽत्यरीरिचं यद्वा न्यूनमिहाकरम्\n
+अग्निष्टत् स्विष्टकृद् विद्यात् सर्वं स्विष्टं सुहुतं करोतु मे।\n
+अग्नये स्विष्टकृते सुहुतहुते सर्वप्रायश्चित्ताहुतीनां कामानां\n
+समर्द्धयित्रे सर्वान्नः कामान्त्समर्द्धय स्वाहा ।। इदमग्नये\n
+स्विष्टकृते इदन्न मम ।।\n\n
+
+ प्राजापत्याहुतिमन्त्रः \n\n
+ओं प्रजापतये स्वाहा ।। इदं प्रजापतये - इदन्न मम ।।\n\n
+         **इस मन्त्र से मौन आहुति दें**\n\n
+पूर्णाहुतिमन्त्रः\n\n
+ओं सर्वं वै पूर्ण स्वाहा ।।
+\n\n
+              **इस मन्त्र को तीन बार पढ़कर तीन आहुतियाँ दें।**"
+     android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

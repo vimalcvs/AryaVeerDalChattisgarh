@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pathyakaram.Pustakalaya">
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="50.0dip">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card1" android:layout_width="fill_parent"
+        android:layout_height="100.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView android:id="@+id/image"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/arya_veerdal_baudhik" />
+            <TextView android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="85.0dip"
+                android:text="@string/aryaveerdalkipustaken"
+                android:layout_centerVertical="true" android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card2"
+        android:layout_width="fill_parent" android:layout_height="100.0dip"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="70dp" android:layout_height="fill_parent"
+                android:src="@drawable/swami_devvratji" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start" android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:text="स्वामी देवव्रत जी द्वारा लिखित पुस्तकें "
+
+                android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card3"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip" android:layout_marginTop="15.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+          <ImageView
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_marginTop="10dp"
+              android:src="@drawable/ic_baseline_lock_24"
+              android:layout_marginLeft="300dp"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="fill_parent" android:src="@drawable/swamiji" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start" android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:text="आर्ष साहित्य " android:layout_centerVertical="true" android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

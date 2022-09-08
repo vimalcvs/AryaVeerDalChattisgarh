@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".mantra.Rastriya_prarthna">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="23.0sp"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----राष्ट्रिय प्रार्थना----" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text=""
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card21"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@color/colorPrimaryDark"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text="राष्ट्रिय प्रार्थना \n\n
+
+ओ३म् आ ब्रह्मन् ब्राह्मणो ब्रह्मवर्चसी जायतामा राष्ट्र राजन्यः
+शूरऽइषव्योऽतिव्याधी महारथो जायतां दोग्धी धेनुर्वोढानड्वानाशुः सप्तिः पुरन्धिर्योषा जिष्णू रथेष्ठाः सभेयो युवास्य यजमानस्य वीरो जायतां निकामेनिकामे नः पर्जन्यो वर्षतु फलवत्यो नऽओषधयः पच्यन्तां योगक्षेमो नः कल्पताम् ।। -
+\n
+यजुः० २२।२२\n\n
+
+            **राष्ट्रीय प्रार्थना का अर्थ**\n\n
+
+हे परमात्मन्! हमारे राष्ट्र में ब्रह्मतेज से तेजस्वी ब्राह्मण उत्पन्न हो।\n
+बाण आदि अस्त्र-शस्त्र चलाने में निपुण, दूर तक निशाना बींधनेवाले तथा शत्रुओं को अत्यन्त पीड़ित करनेवाले, दस सहस्त्र सैनिकों से अकेले युद्ध करनेवाले महारथी शूरवीर क्षत्रिय उत्पन्न हो।\n
+खूब दूध देनेवाली गौएँ उत्पन्न हों। भार ढोने में समर्थ बैल उत्पन्न हो। शीघ्रगामी घोड़े उत्पन्न हो। \nनगर एवं राष्ट्र को धारण करनेवाली स्त्रियाँ उत्पन्न हों। इस दिव्य प्रजाजन के शत्रुओं को विदीर्ण करनेवाला, शूरवीर, रथ में बैठनेवाला योद्धा जयशील, सभाओं में जाने योग्य, सभ्य, बोलने में कुशल युवा उत्पन्न हो। हमारे लिए जब-जब हमारी कामना हो तब-तब बादल वर्षा करें।\n इच्छानुसार
+वृष्टि हो, अतिवृष्टि एवं अनावृष्टि न हो। हमारे लिए जौ आदि औषधियाँ बहुत अधिक फलवाली होकर पका करें तथा हमारे लिए अप्राप्त ऐश्वर्य की प्राप्ति और प्राप्त ऐश्वर्य की रक्षा एवं समृद्धि सिद्ध हो।"
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_6">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/nationalid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="पार्श्व भाग से गला पकड़ना " />
+    </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                 android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="अ ने अपने बायें हाथ से पार्श्व भाग में खडे ब की गर्दन पकड़ कर दाहिने हाथ से अपनी बांयी कलाई को पकड़ा हुआ है।" />
+        </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card1"
+        android:layout_width="fill_parent"
+        android:layout_height="120.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="1.सुरक्षा - ब दोनों हाथों को क्रास करके अ की सबसे छोटी अंगुली या जो पकड़ में आये, उसे पकड़ कर मरोड़ते हुये उसकी पकड़ से छूट जाये तथा बांयी ओर से दाहिनी ओर घूमते हुये अ के सामने दाहिने पैर की किक उसके अण्डकोष पर मारे। "
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card2"
+        android:layout_width="fill_parent"
+        android:layout_height="125.0dip"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView android:textSize="15.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:text="2.अ ने ब के गले पर दाहिना तथा ग्रीवा पर बांया हाथ रख कर जापानी फाँसी लगाई हुई है।\n
+
+ सुरक्षा - ब अपने बांये हाथ से अ के दाहिने हाथ की कलाई और दाहिने से उसका पहुंचा या कोहनी पकड़कर कुछ नीचे झुक जाये जिस से कि ग्रीवा की पकड़ कुछ ढीली पड़ जायें अब ब घुटनों को मोड़ कर अ को पीठ पर लाद ले तथा पीठ का झटका देते हुये धोबी पाट दाव लगा कर अ को सामने भूमि पर डाल दे ।"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

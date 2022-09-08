@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nyudhamacharya.aatma_raksha_vigyan.Self_defence_11">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/nationalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" दोनों हाथों द्वारा सामने से बाल पकड़ना " />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="अ ने दाहिने हाथ से ब के बाल सामने पकड़े हुये हैं।"
+
+
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_height="120.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="1.सुरक्षा ब अपने दोनों हाथों को ऊपर लाते हुये बांये हाथ से अ की बांयी कलाई तथा दाहिने हाथ को अ के बांये हाथ के नीचे से मध्य में लेकर अपनी दाहिनी कोहनी को अ की बांयी कोहनी के नीचे मारते हुये झटके से उसके हाथों को बांयी ओर मरोड़ दे तथा दाहिनी चाप अ की  दाहिनी ग्रीवा पर मारे।"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sastracharya.talvaar.Talvaar_upvyayam_shikshak">
+
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="20.0dip">
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#060606"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="उप व्यायाम शिक्षक श्रेणी" />
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="#060606"
+
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="असि संचालन
+
+\n\n
+१) वाम स्कन्ध छेद\n
+२) वाम स्कन्ध छेद शिर रोक\n
+३) वाम स्कन्द छेद दो दिक\n
+४) वाम स्कन्द छेद चौमुख\n
+५) वाम स्कन्ध छेद पौन चक्र\n
+६) गर्दन काट (बड़ौदा पद्धति)\n
+७) गर्दन उड्डीन पीछे आगे\n\n
+अमरावती पद्धति\n\n
+८) सलामी एक- सामने पेट में खोंच, दाहिना पैर बढ़ाकर जनेऊ मारना और
+दिशा (अर्धचक) बदलना फिर बन्दर उड़ी करके सिर पर से तलवार निकालना
+
+और पहली अवस्था में आना।\n
+६) सलामी दो- सलामी एक के समान खोच, अर्धचक, जनेऊ, खोच और बन्दर
+उड़ी करके पोन चक लगाना। इसी भाँति चारों दिशाओं में वार करना। (५०)
+\n\n
+--द्वन्द्व-
+\n\n
+दो प्रहार -\n
+१) दाहिने पैर पर चीर मार चीर रोक, सिर मार सिर रोक,\n
+२) सिर मार, हाथ खींच सिर के ऊपर से घुमाकर बायाँ कन्धा मार, सिर रोक,
+
+फिर कन्धा रोक।\n
+३) कमर मार कमर रोक, शिर मार शिर रोक।\n
+४) कमर मार, हाथ खींच कर मुर्चा घुमाकर तलवार आसमान को दिखाकर
+
+दाहिना शिर मार, कमर रोक दाहिना शिर रोक।\n\n
+तीन प्रहार -\n
+१) तमाचा मार , कमर मार शिर मार, तमाचा रोक, कमर रोक शिर रोक।\n
+२) कनपट्टी मार, बायाँ पैर बढ़ा पालट मार, दाहिना पैर बढ़ा शिर मार
+रोक।
+\n
+
+३) असि की बन्दिश
+\n" />
+    </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

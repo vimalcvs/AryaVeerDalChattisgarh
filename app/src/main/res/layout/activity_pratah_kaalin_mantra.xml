@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".mantra.Pratah_kaalin_mantra">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="0.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----प्रातःकालीन मन्त्राः----" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card21"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text=""
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@color/colorPrimaryDark"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text="ओ३म् । प्रातरग्निं प्रातरिन्द्रं हवामहे प्रातर्मित्रावरुणा प्रातरश्विना।\n
+प्रातर्भगं पूषणं ब्रह्मणस्पतिं प्रातः सोममुत रुद्रं हुवेम ।।१।।\n\n
+
+प्रातर्जितं भगमुग्रं हुवेम वयं पुत्रमदितेर्यो विधर्ता।\n
+आधश्चिद्यं मन्यमानस्तुरश्चिद्राजा चिद्यं भगं भक्षीत्याह ।।२।।\n\n
+
+भग प्रणेतर्भग सत्यराधो भगेमां धियमुदवा ददन्नः ।\n
+भग प्र णो जनय गोभिरश्वैर्भग प्र नृभिर्नुवन्तः स्याम ।।३।।\n\n
+
+उतेदानी भगवन्तः स्यामोत प्रपित्व उत मध्ये अह्नाम् ।\n
+उतोदिता मघवन्त्सूर्यस्य वयं देवानां सुमतौ स्याम ।।४।।\n\n
+
+भग एव भगवाँ अस्तु देवास्तेन वयं भगवन्तः स्याम ।\n
+तं त्वा भग सर्व इज्जोहवीति स नो भग पुरएता भवेह ।।५।।"
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

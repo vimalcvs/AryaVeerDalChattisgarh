@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".mantra.Yazo_pavit_mantrah">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="20.0dip">
+            <TextView
+                android:textSize="23.0sp"
+                android:textColor="#ffff"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----यज्ञोपवीत मन्त्र----" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text=""
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card21"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:background="@color/colorPrimaryDark"
+                android:layout_height="fill_parent">
+
+                <TextView android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginBottom="20dp"
+                    android:text="यज्ञोपवीत मन्त्र \n\n
+
+ओ३म् यज्ञोपवीतं परमं पवित्रं प्रजापतेर्यत्सहजं पुरस्तात् ।\n
+आयुष्यमग्रयं प्रतिमुञ्च शुभ्रं यज्ञोपवीतं बलमस्तु तेजः ।।१।।\n
+ओ३म् यज्ञोपवीतमसि यज्ञस्य त्वा यज्ञोपवीतेनोपनह्यामि ।।२।।\n\n
+
+ **संगठन सूक्त**
+\n\n
+ओं सं समिधुवसे वृषन्नग्ने विश्वान्यर्य आ।\n
+इळस्पदे समिध्यसे स नो वसून्या भर ।। १ ।।\n\n
+हे प्रभो ! तुम शक्तिशाली हो बनाते सृष्टि को ।\n
+वेद सब गाते तुम्हें हैं कीजिए धन-वृष्टि को ।।१।।\n\n
+
+सं गच्छध्वं सं वदध्वं सं वो मनांसि जानताम् ।\n
+देवा भागं यथा पूर्वे सं जानाना उपासते ।।२।।\n\n
+प्रेम से मिलकर चलो बोलो सभी ज्ञानी बनो ।\n
+पूर्वजों की भाँति तुम कर्त्तव्य के मानी बनो ।। २।।\n\n
+
+समानो मन्त्रः समितिः समानी, समानं मनः सह चित्तमेषाम्।\n
+समानं मन्त्रमभि मन्त्रये वः समानेन वो हविषा जुहोमि ।।३।।\n\n
+हों विचार समान सबके चित्त मन सब एक हों।\n
+ज्ञान देता हूँ बराबर भोग्य पा सब नेक हों ।।३।।\n\n
+
+समानी व आकूतिः समाना हृदयानि वः ।\n
+समानस्तु वो मनो यथा वः सुसहासति ।।४।।\n\n
+हों सभी के दिल तथा संकल्प अविरोधी सदा ।\n
+मन भरे हों प्रेम से जिससे बढ़े सुख सम्पदा ।।४।।
+"
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="serif" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
